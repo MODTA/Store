@@ -15,4 +15,5 @@
     <select id="findAll" parameterType="com.onlineStroe.enty.UserQueryVo" resultType="com.onlineStroe.enty.UserCustom">
         SELECT user.* FROM USER
     </select>
+
 </mapper>

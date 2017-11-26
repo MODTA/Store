@@ -12,7 +12,16 @@ public class User implements Serializable {
     private Date login_Time;
     private Date createTime;
     private Date updateTime;
+    private Integer id;
 
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
     public String getPassword() {
         return password;
     }
