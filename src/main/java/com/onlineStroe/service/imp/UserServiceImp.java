@@ -1,6 +1,7 @@
 package com.onlineStroe.service.imp;
 
 import com.onlineStroe.dao.User.UserDao;
+import com.onlineStroe.enty.User;
 import com.onlineStroe.enty.UserCustom;
 import com.onlineStroe.enty.UserQueryVo;
 import com.onlineStroe.service.UserService;
@@ -17,13 +18,18 @@ public class UserServiceImp implements UserService {
     @Autowired
     private UserDao userDao;
     @Override
-    public UserCustom findUserById(UserQueryVo userQueryVo) throws Exception {
+    public UserCustom findUserById(UserQueryVo userQueryVo){
         return userDao.findUserById(userQueryVo);
     }
 
     @Override
-    public List<UserCustom> findAll() throws Exception {
+    public List<UserCustom> findAll()  {
         return userDao.findAll();
+    }
+
+    @Override
+    public void InsertUser(User user)  {
+         userDao.insertUser(user);
     }
 
 }

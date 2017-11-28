@@ -12,8 +12,47 @@
           </where>
     </select>
 
-    <select id="findAll" parameterType="com.onlineStroe.enty.UserQueryVo" resultType="com.onlineStroe.enty.UserCustom">
+    <select id="findAll" parameterType="com.onlineStroe.enty.User" resultType="com.onlineStroe.enty.UserCustom">
         SELECT user.* FROM USER
     </select>
+
+    <insert id="insertUser" parameterType="com.onlineStroe.enty.User">
+        Insert into USER
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id!=null">
+                id,
+            </if>
+            <if test="password!=null">
+                password,
+            </if>
+            <if test="name!=null">
+                name,
+            </if>
+            <if test="email!=null">
+                email,
+            </if>
+            <if test="phone!=null">
+                phone,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id!=null">
+                #{d,jdbcType=BIGINT},
+            </if>
+            <if test="password!=null">
+                #{password,jdbcType=VARCHAR},
+            </if>
+            <if test="name!=null">
+                #{name,jdbcType=VARCHAR},
+            </if>
+            <if test="phone!=null">
+                #{phone,jdbcType=VARCHAR},
+            </if>
+            <if test="email!=null">
+                #{email,jdbcType=VARCHAR}
+            </if>
+        </trim>
+    </insert>
+
 
 </mapper>

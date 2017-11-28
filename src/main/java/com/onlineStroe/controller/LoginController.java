@@ -14,7 +14,7 @@ import java.util.List;
  * Created by Administrator on 2017/11/17.
  */
 @Controller
-@RequestMapping("/")
+@RequestMapping("/user")
 public class LoginController {
 
     @Autowired
@@ -27,8 +27,11 @@ public class LoginController {
 
         List<UserCustom>  userCustoms=userService.findAll();
         m.addObject("userCustoms",userCustoms);
-        m.setViewName("ctps_320_nn/try1");
+        m.setViewName("try1");
         return m;
     }
+
+    //验证用户
+    //登录自动跳转
 
 }

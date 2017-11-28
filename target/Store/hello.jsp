@@ -11,7 +11,10 @@
     <title>Title</title>
 </head>
 <body>
-<h1>welcome</h1>
+<%
+    response.sendRedirect("/index/");
+%>
+
 
 </body>
 </html>

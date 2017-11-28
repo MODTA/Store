@@ -13,6 +13,8 @@ public class User implements Serializable {
     private Date createTime;
     private Date updateTime;
     private Integer id;
+    private String email;
+    private String phone;
 
 
     public Integer getId() {
@@ -60,5 +62,21 @@ public class User implements Serializable {
 
     public void setUpdateTime(Date updateTime) {
         this.updateTime = updateTime;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 }

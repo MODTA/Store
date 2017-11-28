@@ -15,5 +15,7 @@
        default-lazy-init="true">
 
 <bean id="userService" class="com.onlineStroe.service.imp.UserServiceImp"></bean>
-<context:component-scan base-package="com.onlineStroe.service"></context:component-scan>
-        </beans>
+
+        <context:component-scan base-package="com.onlineStroe.service"></context:component-scan>
+<bean id="dealCategoryService" class="com.onlineStroe.service.imp.DealCategoryServiceImp"></bean>
+</beans>
