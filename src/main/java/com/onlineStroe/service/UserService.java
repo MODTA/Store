@@ -16,4 +16,6 @@ public interface UserService {
     public List<UserCustom> findAll();
 
     public void InsertUser(User user);
+
+    public User login(User user);
 }

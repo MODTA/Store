@@ -2162,6 +2162,9 @@ color:#204056;
 .col-md-6.reg-form {
   padding: 0;
 }
+.msg{
+    padding-left: 35%;
+}
 .reg p:nth-child(2) {
  margin:0;
 }

@@ -1,196 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea24bd0e-4554-45fb-a2d2-971e9396333b" name="Default" comment="aaaa">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/RegisterController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/dao/DealCategory/DealCategoryDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/DealCategoryQueryVo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/DealCategoryMappper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/imp/DealCategoryServiceImp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try2.ftl" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/dao/Deal/DealDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/checkout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/contact.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/css/flexslider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/css/megamenu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/1-.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/12-.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/13-.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/2-.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/3-.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/3-.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/4-.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/4-.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/5-.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/6-.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/7-.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/8-.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/a.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/a3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/banner.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/cart-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/cart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/cart1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/close_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/d.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/e.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/search1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/star.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/test1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/test2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/tick.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/timg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/images/unknow.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/js/jquery-1.11.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/js/jquery.flexisel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/js/jquery.flexslider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/js/jquery.jscrollpane.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/js/megamenu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/js/responsiveslides.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/js/simpleCart.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/products.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/register.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/single.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/ftl/ctps_320_nn/try1.ftl" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/controller/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/dao/User/UserDao.class" afterPath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/dao/User/UserDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/enty/User.class" afterPath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/enty/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/enty/UserCustom.class" afterPath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/enty/UserCustom.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/enty/UserQueryVo.class" afterPath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/enty/UserQueryVo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/enty/deal.class" afterPath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/enty/deal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/service/UserService.class" afterPath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/service/UserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/service/imp/UserServiceImp.class" afterPath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/service/imp/UserServiceImp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/onlineStroe/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/com/onlineStroe/controller/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/onlineStroe/dao/User/UserDao.class" afterPath="$PROJECT_DIR$/target/classes/com/onlineStroe/dao/User/UserDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/onlineStroe/enty/User.class" afterPath="$PROJECT_DIR$/target/classes/com/onlineStroe/enty/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/onlineStroe/enty/UserCustom.class" afterPath="$PROJECT_DIR$/target/classes/com/onlineStroe/enty/UserCustom.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/onlineStroe/enty/UserQueryVo.class" afterPath="$PROJECT_DIR$/target/classes/com/onlineStroe/enty/UserQueryVo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/onlineStroe/enty/deal.class" afterPath="$PROJECT_DIR$/target/classes/com/onlineStroe/enty/deal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/onlineStroe/service/UserService.class" afterPath="$PROJECT_DIR$/target/classes/com/onlineStroe/service/UserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/onlineStroe/service/imp/UserServiceImp.class" afterPath="$PROJECT_DIR$/target/classes/com/onlineStroe/service/imp/UserServiceImp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+    <list default="true" id="ea24bd0e-4554-45fb-a2d2-971e9396333b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/utils/CookieUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_thymeleaf_thymeleaf_Release.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_thymeleaf_thymeleaf_Release.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_thymeleaf_thymeleaf_spring3_Release.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_thymeleaf_thymeleaf_spring3_Release.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Store.iml" afterPath="$PROJECT_DIR$/Store.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/IndexController.java" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/IndexController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/LoginController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/dao/User/UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/dao/User/UserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/DealCategory.java" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/DealCategory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/DealMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/DealMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/UserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/DealCategoryService.java" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/DealCategoryService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/UserService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/imp/UserServiceImp.java" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/imp/UserServiceImp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/login.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/register.ftl" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/register.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/hello.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/hello.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/application/applicationContext-service.xml" afterPath="$PROJECT_DIR$/src/resources/application/applicationContext-service.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/springmvc.xml" afterPath="$PROJECT_DIR$/src/resources/springmvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/classes/application/applicationContext-service.xml" afterPath="$PROJECT_DIR$/target/Store/WEB-INF/classes/application/applicationContext-service.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/mapper/UserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/classes/springmvc.xml" afterPath="$PROJECT_DIR$/target/Store/WEB-INF/classes/springmvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/Store/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Store/hello.jsp" afterPath="$PROJECT_DIR$/target/Store/hello.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application/applicationContext-service.xml" afterPath="$PROJECT_DIR$/target/classes/application/applicationContext-service.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/onlineStroe/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/target/classes/com/onlineStroe/mapper/UserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springmvc.xml" afterPath="$PROJECT_DIR$/target/classes/springmvc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/cart.java" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/Cart.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/checkout.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/checkout.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/contact.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/contact.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/css/bootstrap.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/css/flexslider.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/flexslider.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/css/megamenu.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/megamenu.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/css/style.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/1-.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/1-.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/1.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/1.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/12-.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/12-.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/12.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/12.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/13-.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/13-.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/13.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/13.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/18.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/18.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/19.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/19.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/2-.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/2-.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/2.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/2.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/20.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/20.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/21.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/21.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/3-.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/3-.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/3-.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/3-.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/3.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/4-.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/4-.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/4-.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/4-.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/4.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/5-.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/5-.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/5.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/5.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/6-.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/6-.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/6.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/6.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/6.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/7-.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/7-.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/7.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/7.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/7.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/7.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/8-.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/8-.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/8.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/8.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/a.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/a.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/a3.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/a3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/b.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/b.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/banner.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/banner.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/c.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/c.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/cart-1.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/cart-1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/cart.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/cart.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/cart1.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/cart1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/close_1.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/close_1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/d.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/d.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/e.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/e.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/search1.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/search1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/star.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/star.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/test1.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/test1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/test2.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/test2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/tick.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/tick.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/timg.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/timg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/images/unknow.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/unknow.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/js/bootstrap.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/js/jquery-1.11.1.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.11.1.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/js/jquery.flexisel.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.flexisel.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/js/jquery.flexslider.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.flexslider.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/js/jquery.jscrollpane.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.jscrollpane.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/js/megamenu.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/megamenu.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/js/responsiveslides.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/responsiveslides.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/js/simpleCart.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/simpleCart.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/login.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/login.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/products.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/products.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/register.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/register.ftl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/single.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/single.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/ctps_320_nn/try1.ftl" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try1.ftl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/index.ftl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/try1.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try2.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -207,54 +33,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="666">
+              <caret line="53" column="12" lean-forward="false" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hello.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/hello.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="26" column="59" lean-forward="false" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+            <state relative-caret-position="814">
+              <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="677">
-              <caret line="94" column="32" lean-forward="true" selection-start-line="94" selection-start-column="32" selection-end-line="94" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.ftl" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/register.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="82" column="26" lean-forward="false" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/index.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="142" column="77" lean-forward="true" selection-start-line="142" selection-start-column="77" selection-end-line="142" selection-end-column="77" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DealCategoryService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/service/DealCategoryService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -262,41 +68,23 @@
       <file leaf-file-name="UserServiceImp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/service/imp/UserServiceImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state relative-caret-position="284">
+              <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
               <folding>
-                <element signature="e#603#604#0" expanded="true" />
-                <element signature="e#659#660#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
-                <element signature="e#755#756#0" expanded="true" />
-                <element signature="e#811#812#0" expanded="true" />
-                <element signature="e#852#853#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/UserMapper.xml">
+      <file leaf-file-name="CookieUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/utils/CookieUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="395">
+              <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
               <folding>
-                <marker date="1511852672927" expanded="true" signature="643:666" ph="SELECT user.... USER" />
-                <marker date="1511852672927" expanded="true" signature="761:777" ph="Insert into USER... " />
-                <marker date="1511852672927" expanded="true" signature="761:1297" ph="Insert into USER... " />
-                <marker date="1511852672927" expanded="true" signature="761:1759" ph="Insert into USER... " />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -304,20 +92,57 @@
       <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/dao/User/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="15" column="59" lean-forward="false" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+            <state relative-caret-position="481">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/RegisterController.java">
+      <file leaf-file-name="DealCategory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/DealCategory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="38" />
+            <state relative-caret-position="-814">
+              <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="488">
+              <caret line="70" column="8" lean-forward="false" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1511920011567" expanded="true" signature="1095:1118" ph="SELECT user.... USER" />
+                <marker date="1511920011567" expanded="true" signature="2362:2380" ph="select * fro... USER" />
+                <marker date="1511920011567" expanded="true" signature="2362:2426" ph="select * fro... USER" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+              <folding>
+                <element signature="e#887#888#0" expanded="true" />
+                <element signature="e#931#932#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DealCategoryMappper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/DealCategoryMappper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <marker date="1511772520697" expanded="true" signature="776:803" ph="select * fro... deal_Category" />
               </folding>
             </state>
           </provider>
@@ -338,9 +163,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>spring-web</find>
-      <find>dbcp</find>
-      <find>junit</find>
       <find>core</find>
       <find>spring-beans</find>
       <find>context</find>
@@ -368,6 +190,9 @@
       <find>首页</find>
       <find>&lt;#</find>
       <find>bottom1</find>
+      <find>reg-</find>
+      <find>login</find>
+      <find>commons-codec-1.3</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -384,7 +209,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/webapp/WEB-INF/ftl/try1.ftl" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/resources/application/applicationContext-dao.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try1.html" />
@@ -407,9 +231,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try1.ftl" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/同意.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try2.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/login.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/index.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/style.css" />
         <option value="$PROJECT_DIR$/src/resources/springmvc.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/DealCategoryQueryVo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/dao/DealCategory/DealCategoryDao.java" />
@@ -422,19 +244,22 @@
         <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/DealCategory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/DealCategoryMappper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/hello.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/products.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/dao/User/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/imp/UserServiceImp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/register.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/RegisterController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/register.ftl" />
-        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/index.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/style.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/register.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/login.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/dao/User/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/utils/CookieUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/imp/UserServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/hello.jsp" />
       </list>
     </option>
   </component>
@@ -556,6 +381,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -657,6 +483,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ftl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -795,7 +647,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1526,7 +1377,10 @@
       <workItem from="1511246492680" duration="3317000" />
       <workItem from="1511672130031" duration="16392000" />
       <workItem from="1511742503486" duration="23770000" />
-      <workItem from="1511850462775" duration="4819000" />
+      <workItem from="1511850462775" duration="5684000" />
+      <workItem from="1511877394997" duration="6440000" />
+      <workItem from="1511917268386" duration="4385000" />
+      <workItem from="1511964924781" duration="1915000" />
     </task>
     <task id="LOCAL-00001" summary="aaaa">
       <created>1511684797345</created>
@@ -1542,7 +1396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511684813843</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="调整位置/&#10;登录页面的分类导入/&#10;用户注册/">
+      <created>1511856457889</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1511856457889</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1551,7 +1412,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158300000" />
+    <option name="totallyTimeSpent" value="171905000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1576,11 +1437,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.49785408" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.072463766" sideWeight="0.73819745" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5150502" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.072463766" sideWeight="0.73819745" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.49785408" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58569807" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24409871" sideWeight="0.476731" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21781115" sideWeight="0.476731" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18939394" sideWeight="0.523269" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21482684" sideWeight="0.5183585" order="7" side_tool="true" content_ui="tabs" />
@@ -1636,6 +1497,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -1643,24 +1530,26 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="aaaa" />
-    <option name="LAST_COMMIT_MESSAGE" value="aaaa" />
+    <MESSAGE value="调整位置/&#10;登录页面的分类导入/&#10;用户注册/" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整位置/&#10;登录页面的分类导入/&#10;用户注册/" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/LoginController.java</url>
-          <line>29</line>
+          <line>35</line>
           <properties />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/LoginController.java</url>
-          <line>25</line>
+          <line>31</line>
           <properties />
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1669,15 +1558,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/dao/Deal/DealDao.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/Store/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
@@ -1746,13 +1626,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123136">
-          <caret line="3328" column="31" lean-forward="false" selection-start-line="3328" selection-start-column="31" selection-end-line="3328" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/springmvc.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2146">
@@ -1772,7 +1645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1787,7 +1659,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1803,7 +1674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
           <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1834,27 +1704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
           <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/DealCategoryMappper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <marker date="1511772520697" expanded="true" signature="776:803" ph="select * fro... deal_Category" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/DealCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1869,7 +1718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1883,19 +1731,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/hello.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/single.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1903,7 +1742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3552">
           <caret line="96" column="60" lean-forward="false" selection-start-line="96" selection-start-column="60" selection-end-line="96" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1911,7 +1749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9028">
           <caret line="244" column="39" lean-forward="false" selection-start-line="244" selection-start-column="39" selection-end-line="244" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1919,15 +1756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1935,119 +1763,158 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="e#1316#1317#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1386#1387#0" expanded="true" />
-            <element signature="e#1420#1421#0" expanded="true" />
-            <element signature="e#1452#1453#0" expanded="true" />
-            <element signature="e#1480#1481#0" expanded="true" />
-            <element signature="e#1522#1523#0" expanded="true" />
-            <element signature="e#1556#1557#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/service/imp/UserServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/dao/User/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="15" column="59" lean-forward="false" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/RegisterController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
+        <state relative-caret-position="740">
           <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/UserMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <marker date="1511852672927" expanded="true" signature="643:666" ph="SELECT user.... USER" />
-            <marker date="1511852672927" expanded="true" signature="761:777" ph="Insert into USER... " />
-            <marker date="1511852672927" expanded="true" signature="761:1297" ph="Insert into USER... " />
-            <marker date="1511852672927" expanded="true" signature="761:1759" ph="Insert into USER... " />
-          </folding>
+        <state relative-caret-position="80105">
+          <caret line="2165" column="22" lean-forward="false" selection-start-line="2165" selection-start-column="22" selection-end-line="2165" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/IndexController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/index.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="26" column="59" lean-forward="false" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="5254">
+          <caret line="142" column="77" lean-forward="false" selection-start-line="142" selection-start-column="77" selection-end-line="142" selection-end-column="77" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="94" column="32" lean-forward="true" selection-start-line="94" selection-start-column="32" selection-end-line="94" selection-end-column="32" />
+        <state relative-caret-position="1591">
+          <caret line="43" column="20" lean-forward="false" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/register.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3811">
+          <caret line="103" column="33" lean-forward="false" selection-start-line="103" selection-start-column="33" selection-end-line="103" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/service/DealCategoryService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        <state relative-caret-position="395">
+          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/DealCategoryMappper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <marker date="1511772520697" expanded="true" signature="776:803" ph="select * fro... deal_Category" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1184">
+          <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/index.ftl">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="142" column="77" lean-forward="true" selection-start-line="142" selection-start-column="77" selection-end-line="142" selection-end-column="77" />
+        <state relative-caret-position="375">
+          <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="70" column="8" lean-forward="false" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
+          <folding>
+            <marker date="1511920011567" expanded="true" signature="1095:1118" ph="SELECT user.... USER" />
+            <marker date="1511920011567" expanded="true" signature="2362:2380" ph="select * fro... USER" />
+            <marker date="1511920011567" expanded="true" signature="2362:2426" ph="select * fro... USER" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/DealCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-814">
+          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/register.ftl">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/dao/User/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="82" column="26" lean-forward="false" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
+        <state relative-caret-position="481">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/utils/CookieUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/service/imp/UserServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="53" column="12" lean-forward="false" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/hello.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
           <folding />
         </state>
       </provider>

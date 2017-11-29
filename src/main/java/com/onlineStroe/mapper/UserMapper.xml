@@ -3,14 +3,25 @@
 
 <mapper namespace="com.onlineStroe.dao.User.UserDao">
 
+    <resultMap id="UserResultMap" type="com.onlineStroe.enty.User">
+        <id property="id" column="id"/>
+        <result property="password" column="password"/>
+        <result property="name" column="name"/>
+        <result property="email" column="email"/>
+        <result property="phone" column="phone"/>
+        <result property="updateTime" column="update_time"/>
+        <result property="login_Time" column="login_time"/>
+
+    </resultMap>
     <select id="findUserById" parameterType="com.onlineStroe.enty.UserQueryVo" resultType="com.onlineStroe.enty.UserCustom">
           SELECT user.* FROM USER
           <where>
-              <if test="userCustom!=null">
-                  user.id=${userCustom.id}
+              <if test="usercustom!=null">
+                  user.id=${usercustom.id}
               </if>
           </where>
     </select>
+
 
     <select id="findAll" parameterType="com.onlineStroe.enty.User" resultType="com.onlineStroe.enty.UserCustom">
         SELECT user.* FROM USER
@@ -37,7 +48,7 @@
         </trim>
         <trim prefix="values (" suffix=")" suffixOverrides=",">
             <if test="id!=null">
-                #{d,jdbcType=BIGINT},
+                #{id,jdbcType=BIGINT},
             </if>
             <if test="password!=null">
                 #{password,jdbcType=VARCHAR},
@@ -54,5 +65,8 @@
         </trim>
     </insert>
 
-
+    <select id="findUserByName" parameterType="java.lang.String" resultMap="UserResultMap">
+        select * from USER
+        WHERE name = #{name,jdbcType=VARCHAR}
+    </select>
 </mapper>

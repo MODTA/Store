@@ -18,4 +18,6 @@ public interface UserDao {
     public List<UserCustom> findAll();
 
     public void insertUser(User user);
+
+    public User findUserByName(String name);
 }

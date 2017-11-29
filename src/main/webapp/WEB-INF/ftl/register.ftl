@@ -81,7 +81,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="reg">
 				<h3>新用户注册</h3>
-				 <form action="/register/insertUser" method="GET">
+				 <form action="/register/insertUser" method="GET" onsubmit="return judge()">
 					<ul>
 						<li class="text-info">用户名字: </li>
 						<li><input type="text" value="" name="name"></li>
@@ -97,6 +97,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<ul>
 						<li class="text-info">确认密码</li>
 						<li><input type="password" value=""></li>
+                        <div class="msg2"></div>
 					</ul>
 					<ul>
 						<li class="text-info">手机号</li>
@@ -109,6 +110,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 		</div>
 	</div>
+	<script type="text/javascript">
+    	function judge(){
+      	  var password1,password2;
+       	 password1=$('input:password:first').val();
+       	 password2=$('input:password:last').val();
+       	 if (password1!== password2) {
+            $('.msg2').append("<div class='msg bg-danger .text-info'>两次密码输入不一样,请重新输入</div>");
+            return false;
+        }
+        else{
+            return true;
+        }
+    }
+
+	</script>
 <!-- footer -->
 	<div class="footer">
 			<div class="clearfix"></div>

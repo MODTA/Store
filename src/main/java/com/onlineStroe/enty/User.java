@@ -10,7 +10,6 @@ public class User implements Serializable {
     private String password;
     private String name;
     private Date login_Time;
-    private Date createTime;
     private Date updateTime;
     private Integer id;
     private String email;
@@ -46,14 +45,6 @@ public class User implements Serializable {
 
     public void setLogin_Time(Date login_Time) {
         this.login_Time = login_Time;
-    }
-
-    public Date getCreateTime() {
-        return createTime;
-    }
-
-    public void setCreateTime(Date createTime) {
-        this.createTime = createTime;
     }
 
     public Date getUpdateTime() {

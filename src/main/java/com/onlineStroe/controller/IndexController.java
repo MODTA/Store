@@ -22,7 +22,7 @@ public class IndexController {
     private DealCategoryService dealCategoryService;
     //分类
     //首页商品的显示
-    @RequestMapping("/")
+    @RequestMapping("")
     public String index(Model model, HttpServletRequest request){
         List<DealCategory> categories =dealCategoryService.getCategories();
         model.addAttribute("categories",categories);
