@@ -1,34 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea24bd0e-4554-45fb-a2d2-971e9396333b" name="Default" comment="登录操作和注册操作">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/login.ftl" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/login.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/controller/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/dao/User/UserDao.class" afterPath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/dao/User/UserDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/enty/User.class" afterPath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/enty/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/service/UserService.class" afterPath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/service/UserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/service/imp/UserServiceImp.class" afterPath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/service/imp/UserServiceImp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/onlineStroe/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/com/onlineStroe/controller/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/onlineStroe/dao/User/UserDao.class" afterPath="$PROJECT_DIR$/target/classes/com/onlineStroe/dao/User/UserDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/onlineStroe/enty/User.class" afterPath="$PROJECT_DIR$/target/classes/com/onlineStroe/enty/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/onlineStroe/service/UserService.class" afterPath="$PROJECT_DIR$/target/classes/com/onlineStroe/service/UserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/onlineStroe/service/imp/UserServiceImp.class" afterPath="$PROJECT_DIR$/target/classes/com/onlineStroe/service/imp/UserServiceImp.class" />
+    <list default="true" id="ea24bd0e-4554-45fb-a2d2-971e9396333b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_thymeleaf_thymeleaf_Release.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_thymeleaf_thymeleaf_Release.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_thymeleaf_thymeleaf_spring3_Release.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_thymeleaf_thymeleaf_spring3_Release.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/IndexController.java" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/IndexController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/LoginController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/checkout.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/checkout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/contact.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/index.ftl" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/index.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/products.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/products.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/register.ftl" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/register.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/single.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/single.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try2.ftl" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try2.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/mapper/UserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Store/hello.jsp" afterPath="$PROJECT_DIR$/target/Store/hello.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/onlineStroe/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/target/classes/com/onlineStroe/mapper/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try2.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try2.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,8 +27,18 @@
       <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+            <state relative-caret-position="1036">
+              <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/IndexController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -58,7 +47,7 @@
       <file leaf-file-name="register.ftl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/register.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
+            <state relative-caret-position="4366">
               <caret line="118" column="66" lean-forward="false" selection-start-line="118" selection-start-column="46" selection-end-line="118" selection-end-column="66" />
               <folding />
             </state>
@@ -68,8 +57,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="2164" column="5" lean-forward="true" selection-start-line="2164" selection-start-column="5" selection-end-line="2164" selection-end-column="5" />
+            <state relative-caret-position="37">
+              <caret line="2164" column="5" lean-forward="false" selection-start-line="2164" selection-start-column="5" selection-end-line="2164" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -78,8 +67,18 @@
       <file leaf-file-name="try2.ftl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try2.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            <state relative-caret-position="333">
+              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="try2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -88,8 +87,8 @@
       <file leaf-file-name="login.ftl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/login.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="192" column="11" lean-forward="false" selection-start-line="192" selection-start-column="11" selection-end-line="192" selection-end-column="11" />
+            <state relative-caret-position="185">
+              <caret line="44" column="36" lean-forward="true" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -191,7 +190,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/contact.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try1.ftl" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/同意.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try2.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/index.html" />
         <option value="$PROJECT_DIR$/src/resources/springmvc.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/DealCategoryQueryVo.java" />
@@ -216,17 +214,18 @@
         <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/utils/CookieUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/imp/UserServiceImp.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/hello.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/megamenu.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/jquery-1.11.1.min.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/jquery.jscrollpane.min.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/responsiveslides.min.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/simpleCart.min.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/login.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try2.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/register.ftl" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/login.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try2.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try2.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/IndexController.java" />
       </list>
     </option>
   </component>
@@ -348,6 +347,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -357,20 +358,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -484,37 +471,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Store" />
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="onlineStroe" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -533,24 +498,52 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onlineStroe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imageLocation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15820312" />
     <property name="project.structure.side.proportion" value="0.30486685" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/imageLocation" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
@@ -1159,6 +1152,11 @@
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
+        <file path="$PROJECT_DIR$/imageLocation">
+          <settings>
+            <option name="CONTEXT_PATH" value="/pic" />
+          </settings>
+        </file>
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_Store_2" />
@@ -1274,7 +1272,8 @@
       <workItem from="1511877394997" duration="6440000" />
       <workItem from="1511917268386" duration="4385000" />
       <workItem from="1511964924781" duration="9732000" />
-      <workItem from="1512036709707" duration="9017000" />
+      <workItem from="1512036709707" duration="9673000" />
+      <workItem from="1512056069079" duration="1668000" />
     </task>
     <task id="LOCAL-00001" summary="aaaa">
       <created>1511684797345</created>
@@ -1304,7 +1303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511966948256</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="登录操作和注册操作">
+      <created>1512055025465</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1512055025465</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1313,7 +1319,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188739000" />
+    <option name="totallyTimeSpent" value="191063000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1338,11 +1344,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.49785408" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40022296" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.73819745" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.03901895" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40356743" sideWeight="0.73819745" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.49785408" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5852843" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20010729" sideWeight="0.476731" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2027897" sideWeight="0.476731" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18939394" sideWeight="0.523269" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21482684" sideWeight="0.5183585" order="7" side_tool="true" content_ui="tabs" />
@@ -1446,13 +1452,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/flexslider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/css/megamenu.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1463,13 +1462,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/images/test1.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="20" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/images/4.png">
@@ -1517,7 +1509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1614,7 +1605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="518">
           <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1629,9 +1619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <marker date="1511772520697" expanded="true" signature="776:803" ph="select * fro... deal_Category" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1654,11 +1641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="488">
           <caret line="70" column="8" lean-forward="false" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
-          <folding>
-            <marker date="1511920011567" expanded="true" signature="1095:1118" ph="SELECT user.... USER" />
-            <marker date="1511920011567" expanded="true" signature="2362:2380" ph="select * fro... USER" />
-            <marker date="1511920011567" expanded="true" signature="2362:2426" ph="select * fro... USER" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1666,7 +1648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="518">
           <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1674,9 +1655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1221">
           <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1684,7 +1662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1706,16 +1683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/megamenu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
@@ -1728,7 +1695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1736,7 +1702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1744,7 +1709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1752,7 +1716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1784,7 +1747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="37">
           <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1804,42 +1766,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/LoginController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/register.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+        <state relative-caret-position="4366">
+          <caret line="118" column="66" lean-forward="false" selection-start-line="118" selection-start-column="46" selection-end-line="118" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="2164" column="5" lean-forward="true" selection-start-line="2164" selection-start-column="5" selection-end-line="2164" selection-end-column="5" />
+        <state relative-caret-position="37">
+          <caret line="2164" column="5" lean-forward="false" selection-start-line="2164" selection-start-column="5" selection-end-line="2164" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1036">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try2.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        <state relative-caret-position="333">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/register.ftl">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="118" column="66" lean-forward="false" selection-start-line="118" selection-start-column="46" selection-end-line="118" selection-end-column="66" />
+        <state relative-caret-position="-4144">
+          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/login.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="192" column="11" lean-forward="false" selection-start-line="192" selection-start-column="11" selection-end-line="192" selection-end-column="11" />
+        <state relative-caret-position="185">
+          <caret line="44" column="36" lean-forward="true" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1890,7 +1876,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.30486685" />
               </list>
             </option>
           </splitter-proportions>

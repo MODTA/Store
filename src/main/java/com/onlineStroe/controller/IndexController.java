@@ -33,10 +33,7 @@ public class IndexController {
     //首页商品的显示
     @RequestMapping("/try2")
     public String try2(Model model, HttpServletRequest request){
-        List<DealCategory> categories =dealCategoryService.getCategories();
         String try1="success";
-        model.addAttribute("categories",categories);
-        model.addAttribute("try1",try1);
         return "try2";
     }
 }
