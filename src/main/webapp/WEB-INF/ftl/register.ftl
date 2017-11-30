@@ -5,7 +5,7 @@
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Pendent Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+<meta name="keywords" content="Pendent Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -20,7 +20,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="text/javascript" src="../../js/easing.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
+		$(".scroll").click(function(event){
 			event.preventDefault();
 			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 		});
@@ -35,7 +35,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="../../js/simpleCart.min.js"> </script>
 <link href='http://fonts.useso.com/css?family=Monda:400,700' rel='stylesheet' type='text/css'>
 </head>
-	
+
 <body>
 <!-- header -->
 	
@@ -47,13 +47,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="top_right">
 				<ul>
 					<li><a href="contact.html">Contact</a></li>|
-					<li><a href="login.html">Track Order</a></li>
+					<li><a href="login.ftl">Track Order</a></li>
 				</ul>
 			</div>
 			<div class="top_left">
 				<ul>
 					<li class="top_link">Email:<a href="mailto:info@example.com">info@example.com</a></li>|
-					<li class="top_link"><a href="login.html">My Account</a></li>					
+					<li class="top_link"><a href="login.ftl">My Account</a></li>
 				</ul>
 			</div>
 			<div class="clearfix"> </div>
@@ -97,7 +97,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<ul>
 						<li class="text-info">确认密码</li>
 						<li><input type="password" value=""></li>
-                        <div class="msg2"></div>
+                        <div class="msg"></div>
 					</ul>
 					<ul>
 						<li class="text-info">手机号</li>
@@ -116,7 +116,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
        	 password1=$('input:password:first').val();
        	 password2=$('input:password:last').val();
        	 if (password1!== password2) {
-            $('.msg2').append("<div class='msg bg-danger .text-info'>两次密码输入不一样,请重新输入</div>");
+            $('.msg').append("<div class='msg bg-danger .text-info'>两次密码输入不一样,请重新输入</div>");
             return false;
         }
         else{
