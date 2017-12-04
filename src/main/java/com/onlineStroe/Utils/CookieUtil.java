@@ -1,4 +1,4 @@
-package com.onlineStroe.enty.utils;
+package com.onlineStroe.Utils;
 
 import com.onlineStroe.enty.User;
 

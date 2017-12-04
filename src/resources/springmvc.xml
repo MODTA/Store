@@ -13,7 +13,7 @@
  <!--   controller-->
     <content:component-scan base-package="com.onlineStroe.controller"></content:component-scan>
 
-    <mvc:annotation-driven></mvc:annotation-driven>
+      <mvc:annotation-driven></mvc:annotation-driven>
 
     <bean id="DefaultViewResplver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
             <property name="prefix" value="/WEB-INF/jsp/"/>
@@ -56,5 +56,16 @@
         </property>
     </bean>
     <mvc:default-servlet-handler/>
-
+    
+    <!--拦截器设计-->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <bean class="com.onlineStroe.Interceptor.CtxIntercepor"></bean>
+        </mvc:interceptor>
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <bean class="com.onlineStroe.Interceptor.HelperIntercepor"></bean>
+        </mvc:interceptor>
+    </mvc:interceptors>
 </beans>

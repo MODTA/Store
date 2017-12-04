@@ -20,7 +20,7 @@ import java.util.List;
 public class IndexController {
     @Autowired
     private DealCategoryService dealCategoryService;
-    //分类
+    //分类=>要u进行rlName的跳转
     //首页商品的显示
     @RequestMapping("")
     public String index(Model model, HttpServletRequest request){
