@@ -22,6 +22,24 @@ public class CtxIntercepor implements HandlerInterceptor {
 
     @Override
     public void postHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o, ModelAndView modelAndView) throws Exception {
+        if (modelAndView == null || modelAndView.getModel() == null) {
+            return;
+        }
+        StringBuilder ctx = new StringBuilder();
+        ctx.append(httpServletRequest.getScheme());
+        ctx.append(SCHEME_SUFFIX);
+        ctx.append(httpServletRequest.getServerPort());
+        if (httpServletRequest.getServerPort() != 80) {
+            ctx.append(MAOHAO);
+            ctx.append(httpServletRequest.getServerPort());
+        }
+
+        ctx.append(httpServletRequest.getContextPath());
+        modelAndView.getModel().put(CONTEXT_NAME, ctx.toString());
+
+        if (modelAndView.getViewName().startsWith("redirect:")) {
+            modelAndView.getModel().clear();
+        }
 
     }
 

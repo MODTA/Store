@@ -15,4 +15,13 @@
         select * from deal_Category;
     </select>
 
+    <select id="selectByUrlName" parameterType="java.lang.String" resultMap="DealCategoryMapper">
+        select * from deal_Category
+        <where>
+            <if test="urlName!=null">
+                url_name = #{urlName,jdbcType=VARCHAR}
+            </if>
+        </where>
+    </select>
+
 </mapper>

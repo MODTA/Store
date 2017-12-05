@@ -100,7 +100,10 @@ public class ImageUtil {
                 .append(getMonthDay(calendar.get(Calendar.MONTH), calendar.get(Calendar.DAY_OF_MONTH))).append("/").append(imgFileName);
         return sb.toString();
     }
-
+    //h
+    public static String getImageUrl(String domain, Long imgId, String moduleName, Integer imageIndex) {
+        return domain + getImageGenerateFileRelativePath(imgId, moduleName, imageIndex);
+    }
     //绝对路径
     public static String getDetailImageSourceFileAbsolutePath(String imgFileName) {
         return imageConfig.getDetailSourceBasePath() + getDetailImageSourceFileRelativePath(imgFileName);

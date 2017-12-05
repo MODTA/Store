@@ -36,6 +36,11 @@ public class DealCategoryServiceImp implements DealCategoryService {
         return roots;
     }
 
+    @Override
+    public DealCategory selectByUrlName(String urlName) {
+        return dealCategoryDao.selectByUrlName(urlName);
+    }
+
     private void buildSubs(DealCategory parents,List<DealCategory> subs) {
         List<DealCategory> children = subs.stream().filter(sub -> (sub.getParentID() == parents.getId())).collect(Collectors.toList());
         if (!CollectionUtils.isEmpty(children)){

@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * Created by Administrator on 2017/11/14.
  */
-public class deal implements Serializable {
+public class Deal implements Serializable {
     private Integer id;
     private String  sku_id;
     private Integer deal_class;
@@ -13,6 +13,9 @@ public class deal implements Serializable {
     private Integer deal_level;
     private Integer inventory_amount;
     private String merchant_id;
+    private String category_id;
+    private String oss_statue;
+
 
     public Integer getId() {
         return id;
@@ -78,5 +81,11 @@ public class deal implements Serializable {
         this.oss_statue = oss_statue;
     }
 
-    private String oss_statue;
+    public String getCategory_id() {
+        return category_id;
+    }
+
+    public void setCategory_id(String category_id) {
+        this.category_id = category_id;
+    }
 }

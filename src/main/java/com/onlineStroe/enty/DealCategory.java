@@ -1,7 +1,9 @@
 package com.onlineStroe.enty;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * Created by Administrator on 2017/11/21.
@@ -82,5 +84,19 @@ public class DealCategory implements Serializable{
 
     public void setChildren(List<DealCategory> children) {
         this.children = children;
+    }
+
+    public List<Integer> getSelfAndChildrenIds(){
+        List<Integer> ids=new ArrayList<>();
+        ids.add(this.getId());
+        if (null != children && !children.isEmpty()) {
+            ids.addAll(idList(children));
+        }
+        return ids;
+    }
+
+    public List<Integer> idList(List<DealCategory> entities){
+        return entities.stream().map(entity -> entity.getId())
+                .collect(Collectors.toList());
     }
 }

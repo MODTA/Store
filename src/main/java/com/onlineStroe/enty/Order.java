@@ -6,7 +6,7 @@ import java.util.Date;
 /**
  * Created by Administrator on 2017/11/20.
  */
-public class order implements Serializable {
+public class Order implements Serializable {
     private Integer id;
     private Integer user_id;
     private Integer order_staus;

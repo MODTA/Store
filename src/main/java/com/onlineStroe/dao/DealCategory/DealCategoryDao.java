@@ -13,5 +13,7 @@ public interface DealCategoryDao {
 
     public List<DealCategory> selectAllWithoutDeleted();
 
+    public DealCategory selectByUrlName(String urlName);
+
 
 }

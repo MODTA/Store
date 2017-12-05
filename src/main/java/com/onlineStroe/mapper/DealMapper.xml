@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.onlineStroe.dao.DealCategory">
+    <resultMap id="Deal" type="com.onlineStroe.enty.Deal">
+        <id property="id" column="id"></id>
+        <result property="sku_id" column="sku_id"/>
+        <result property="deal_class" column="deal_class"/>
+        <result property="image_id" column="image_id"/>
+        <result property="deal_level" column="deal_level"/>
+        <result property="inventory_amount" column="inventory_amount"/>
+        <result property="merchant_id" column="merchant_id"/>
+        <result property="category_id" column="category_id"/>
+    </resultMap>
 
+    <select id="selectDealsOfCategories" resultMap="Deal" parameterType="java.util.List">
+        select * from
+        <where>
+          <if test="List!=null">
+              category_id in
+              <foreach item="item" index="index" collection="list" open="(" separator="," close=")">
+                  #{item}
+              </foreach>
+          </if>
+        </where>
+    </select>
 
 
 </mapper>

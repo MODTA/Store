@@ -95,11 +95,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<#list categories as category>
 						<div class="col1">
 							<div class="h_nav">
-								<h4>${category.name}</h4>
+								<a herf="${ctx}/producets/${category.urlName}"><h4>${category.name}</h4></a>
 								<ul>
 									<#if category.children??>
 									    <#list category.children as child>
-									        <li><a href="#">${child.name}</a></li>
+									        <li><a href="${ctx}/producets/${child.urlName}">${child.name}</a></li>
 									    </#list>
 									</#if>
 								</ul>	

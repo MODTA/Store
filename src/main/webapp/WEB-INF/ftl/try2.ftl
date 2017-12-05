@@ -8,8 +8,9 @@
 </head>
 <body>
 试一下
-<div class="msg2"></div>
-<img src="/pic/01.jpg" />
+<#list categories as category>
+    ${category.urlName}
+</#list>
 
 </body>
 </html>

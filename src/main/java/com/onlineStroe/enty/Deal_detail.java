@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * Created by Administrator on 2017/11/20.
  */
-public class deal_detail implements Serializable {
+public class Deal_detail implements Serializable {
     private Integer id;
     private Integer deal_id;
 

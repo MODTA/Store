@@ -63,9 +63,9 @@
             <mvc:mapping path="/**"/>
             <bean class="com.onlineStroe.Interceptor.CtxIntercepor"></bean>
         </mvc:interceptor>
-        <mvc:interceptor>
+<!--        <mvc:interceptor>
             <mvc:mapping path="/**"/>
             <bean class="com.onlineStroe.Interceptor.HelperIntercepor"></bean>
-        </mvc:interceptor>
+        </mvc:interceptor>-->
     </mvc:interceptors>
 </beans>

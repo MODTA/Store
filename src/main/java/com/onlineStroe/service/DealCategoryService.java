@@ -16,5 +16,7 @@ public interface DealCategoryService {
 
     public List<DealCategory> getCategories();
 
+    public DealCategory selectByUrlName(String urlName);
+
 }
 

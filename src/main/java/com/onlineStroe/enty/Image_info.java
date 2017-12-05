@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * Created by Administrator on 2017/11/20.
  */
-public class image_info implements Serializable {
+public class Image_info implements Serializable {
     private Integer width;
     private Integer height;
     private String source;
