@@ -8,8 +8,8 @@ import java.util.*;
 /**
  * Created by Administrator on 2017/12/2.
  */
-@Component
-public class ImageConfig {
+
+public class ImageConfig_unuse {
 
     private final Map<String, ModuleConfig> imageModuleMap = new HashMap<String, ModuleConfig>();
 

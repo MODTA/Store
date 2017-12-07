@@ -2,6 +2,7 @@ package com.onlineStroe.component;
 
 import com.onlineStroe.Utils.DealConstant;
 import com.onlineStroe.enty.Deal;
+import com.onlineStroe.enty.utils.ImageUrl;
 import org.springframework.stereotype.Component;
 
 /**
@@ -10,9 +11,12 @@ import org.springframework.stereotype.Component;
 @Component
 public class baseSiteHelper extends FrontendBaseHelper{
 
-    public String getDealImageUrlForDealList(Deal deal) {
-        return getObjectImageUrl(DealConstant.PICTURE_MODULE_DEAL, deal.getImage_id(),
-                DealConstant.PICTURE_SIZE_BY_TYPE_LIST);
+    public String getSingleImageUrlForDealLIst(Deal deal) {
+        return ImageUrl.RELATIVEIMAGE_NORMAL+deal.getImage_id()+".jpg";
+    }
+    //170*170的图片大小
+    public String getProductsImageUrlForDealList(Deal deal){
+        return ImageUrl.RRELATIVEIMAGE_FIX+deal.getImage_id()+".jpg";
     }
 
 }

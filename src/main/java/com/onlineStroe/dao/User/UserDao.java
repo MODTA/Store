@@ -20,4 +20,8 @@ public interface UserDao {
     public void insertUser(User user);
 
     public User findUserByName(String name);
+
+    public void updateUserByKeySelect(User user);
+
+    public void deleteUserById(Integer userID);
 }

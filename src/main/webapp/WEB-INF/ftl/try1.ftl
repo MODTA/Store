@@ -5,12 +5,7 @@
     <title>usersInfo</title>
 </head>
 <body>
-<#list userCustoms as userCustom>
-    <div>
-        username : ${userCustom.name},
-        password : ${userCustom.password}
-    </div>
-</#list>
+<a href="/try2/shengshi"><跳转啦></跳转啦></a>
 
 </body>
 </html>

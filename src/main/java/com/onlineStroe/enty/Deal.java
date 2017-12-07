@@ -7,15 +7,24 @@ import java.io.Serializable;
  */
 public class Deal implements Serializable {
     private Integer id;
+    private String deal_name;
     private String  sku_id;
     private Integer deal_class;
-    private Long image_id;
+    private Integer image_id;
     private Integer deal_level;
     private Integer inventory_amount;
     private String merchant_id;
     private String category_id;
     private String oss_statue;
+    private Integer dealPrice;
 
+    public String getDeal_name() {
+        return deal_name;
+    }
+
+    public void setDeal_name(String deal_name) {
+        this.deal_name = deal_name;
+    }
 
     public Integer getId() {
         return id;
@@ -37,17 +46,18 @@ public class Deal implements Serializable {
         return deal_class;
     }
 
+    public Integer getImage_id() {
+        return image_id;
+    }
+
+    public void setImage_id(Integer image_id) {
+        this.image_id = image_id;
+    }
+
     public void setDeal_class(Integer deal_class) {
         this.deal_class = deal_class;
     }
 
-    public Long getImage_id() {
-        return image_id;
-    }
-
-    public void setImage_id(Long image_id) {
-        this.image_id = image_id;
-    }
 
     public Integer getDeal_level() {
         return deal_level;
@@ -87,5 +97,13 @@ public class Deal implements Serializable {
 
     public void setCategory_id(String category_id) {
         this.category_id = category_id;
+    }
+
+    public Integer getDealPrice() {
+        return dealPrice;
+    }
+
+    public void setDealPrice(Integer dealPrice) {
+        this.dealPrice = dealPrice;
     }
 }

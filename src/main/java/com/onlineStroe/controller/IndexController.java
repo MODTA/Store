@@ -31,9 +31,8 @@ public class IndexController {
     }
 
     //首页商品的显示
-    @RequestMapping("/try2")
+    @RequestMapping("/try1")
     public String try2(Model model, HttpServletRequest request){
-        String try1="success";
-        return "try2";
+        return "try1";
     }
 }

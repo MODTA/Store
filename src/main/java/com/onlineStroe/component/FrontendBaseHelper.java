@@ -4,17 +4,24 @@ import com.onlineStroe.Utils.ImageUtil;
 import com.onlineStroe.Utils.StringUtil;
 import com.onlineStroe.enty.utils.BaseHelper;
 import org.apache.commons.lang.StringUtils;
+import org.springframework.stereotype.Component;
 
 /**
  * Created by Administrator on 2017/12/4.
  */
-public class FrontendBaseHelper extends BaseHelper{
 
-    private static final String SITE_IMAGE_DOMAIN_NAME="http://127.0.0.1:8080/pic";
+public class FrontendBaseHelper extends BaseHelper{
+//查找imgid对应的图片路径
+    private static final String SITE_IMAGE_DOMAIN_NAME="G:\\Study\\Store\\imageLocation\\";
+
     public String getDefaultBlankImageUrl(){
-        return SITE_IMAGE_DOMAIN_NAME + "/images/blank.png";
+        return SITE_IMAGE_DOMAIN_NAME + "/images/blank.jpg";
     }
-    protected String getObjectImageUrl(String objectClass, Long imageId, int imageIndex) {
+//*
+
+
+/*
+    protected String getObjectImageUrl(String objectClass, Integer imageId, int imageIndex) {
         if (StringUtil.isEmpty(objectClass) || (imageId == null) || (imageId == 0)) {
             return getDefaultBlankImageUrl();
         }
@@ -34,5 +41,6 @@ public class FrontendBaseHelper extends BaseHelper{
             return SITE_IMAGE_DOMAIN_NAME + uri;
         }
     }
+*/
 
 }

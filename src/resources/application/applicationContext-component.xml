@@ -12,11 +12,8 @@
 		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
 		http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd
 		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd"
-       default-lazy-init="true">
+       default-lazy-init="false">
 
-    <bean id="userService" class="com.onlineStroe.service.imp.UserServiceImp"></bean>
-
-    <context:component-scan base-package="com.onlineStroe.service"></context:component-scan>
-
-    <bean id="dealCategoryService" class="com.onlineStroe.service.imp.DealCategoryServiceImp"></bean>
+    <context:component-scan base-package="com.onlineStroe.component"/>
+    <bean id="SpringApplicationContext" class="com.onlineStroe.enty.utils.SpringApplicationContext"/>
 </beans>

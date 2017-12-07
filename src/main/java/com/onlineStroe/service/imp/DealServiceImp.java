@@ -7,22 +7,18 @@ import com.onlineStroe.service.DealCategoryService;
 import com.onlineStroe.service.DealService;
 import com.onlineStroe.service.ImageService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 /**
  * Created by Administrator on 2017/11/26.
  */
+@Service
 public class DealServiceImp implements DealService {
 
     @Autowired
     DealDao dealDao;
-    @Autowired
-    DealDetailDAO dealDetailDAO;
-    @Autowired
-    DealCategoryService dealCategoryService;
-    @Autowired
-    ImageService imageService;
 
 
     @Override

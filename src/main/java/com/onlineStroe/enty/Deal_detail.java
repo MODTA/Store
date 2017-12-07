@@ -8,6 +8,7 @@ import java.io.Serializable;
 public class Deal_detail implements Serializable {
     private Integer id;
     private Integer deal_id;
+    private String deal_detail;
 
     public Integer getId() {
         return id;
@@ -33,7 +34,7 @@ public class Deal_detail implements Serializable {
         this.deal_detail = deal_detail;
     }
 
-    private String deal_detail;
+
 
 }
 

@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -29,7 +30,7 @@ public class ProductController {
     //Deal内容
 
     @RequestMapping(value="/products/{urlName}", method = RequestMethod.GET)
-    public String listlistDealsByCategory(@PathVariable String urlName, Model model, HttpServletRequest request){
+    public String listlistDealsByCategory(@PathVariable("urlName") String urlName, Model model, HttpServletRequest request){
         DealCategory dealCategory = dealCategoryService.selectByUrlName(urlName);
         model.addAttribute("dealCategory", dealCategory);
         List<Deal> dealList=dealService.getDealsOfCategories(dealCategory.getSelfAndChildrenIds());
@@ -38,13 +39,23 @@ public class ProductController {
         return "/products";
     }
 
-
+//----------------------------测试使用
     @RequestMapping(value="try2/{urlName}", method = RequestMethod.GET)
-    public String try2(@PathVariable String urlName, Model model, HttpServletRequest request){
+    //上传了商品信息
+    public String try2(@PathVariable("urlName") String urlName, Model model, HttpServletRequest request){
         DealCategory dealCategory = dealCategoryService.selectByUrlName(urlName);
         model.addAttribute("dealCategory", dealCategory);
         List<Deal> dealList=dealService.getDealsOfCategories(dealCategory.getSelfAndChildrenIds());
-//				getAreaId(request), page, DealConstant.DEAL_NUM_PER_PAGE_IN_DEALS_OF_CATEGORY_PAGE)
+        model.addAttribute("dealList", dealList);
+
+        return "/try2";
+    }
+
+    @RequestMapping(value="/try2", method = RequestMethod.GET)
+    public String try2(Model model){
+        List<Integer> try1= new ArrayList<Integer>();
+        try1.add(11);
+        List<Deal> dealList=dealService.getDealsOfCategories(try1);
         model.addAttribute("dealList", dealList);
 
         return "/try2";

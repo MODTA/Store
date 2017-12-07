@@ -77,8 +77,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="cart box_1">
 				<a href="checkout.html">
 				<h3> <div class="total">
-					<span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)</div>
-					<img src="../../images/cart1.png" alt=""/></h3>
+					<span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)
+					<img src="../../images/cart1.png" alt=""/></h3></a></div><
 				</a>
 				<p><a href="javascript:" class="simpleCart_empty">Empty Cart</a></p>
 				<div class="clearfix"> </div>
@@ -102,12 +102,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Popular Brands</h4>
 								<ul>
-									<li><a href="products.html">Slave Bracelets</a></li>
-									<li><a href="products.html">Rings</a></li>
-									<li><a href="products.html">Necklaces</a></li>
-									<li><a href="products.html">Chokers</a></li>
-									<li><a href="products.html">Cuff Links</a></li>									
-									<li><a href="products.html">Bangles</a></li>
+									<li><a href="products.ftl">Slave Bracelets</a></li>
+									<li><a href="products.ftl">Rings</a></li>
+									<li><a href="products.ftl">Necklaces</a></li>
+									<li><a href="products.ftl">Chokers</a></li>
+									<li><a href="products.ftl">Cuff Links</a></li>
+									<li><a href="products.ftl">Bangles</a></li>
 								</ul>	
 							</div>							
 						</div>
@@ -115,12 +115,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Style Zone</h4>
 								<ul>
-									<li><a href="products.html">Men</a></li>
-									<li><a href="products.html">Women</a></li>
-									<li><a href="products.html">Brands</a></li>
-									<li><a href="products.html">Kids</a></li>
-									<li><a href="products.html">Accessories</a></li>
-									<li><a href="products.html">Style Videos</a></li>
+									<li><a href="products.ftl">Men</a></li>
+									<li><a href="products.ftl">Women</a></li>
+									<li><a href="products.ftl">Brands</a></li>
+									<li><a href="products.ftl">Kids</a></li>
+									<li><a href="products.ftl">Accessories</a></li>
+									<li><a href="products.ftl">Style Videos</a></li>
 								</ul>	
 							</div>							
 						</div>
@@ -128,12 +128,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>All Jewellery</h4>
 								<ul>
-									<li><a href="products.html">eum fugiat</a></li>
-									<li><a href="products.html">commodi consequatur</a></li>
-									<li><a href="products.html">illum qui dolorem</a></li>
-									<li><a href="products.html">nihil molestiae</a></li>
-									<li><a href="products.html">eum fugiat</a></li>
-									<li><a href="products.html">consequatur eum</a></li>
+									<li><a href="products.ftl">eum fugiat</a></li>
+									<li><a href="products.ftl">commodi consequatur</a></li>
+									<li><a href="products.ftl">illum qui dolorem</a></li>
+									<li><a href="products.ftl">nihil molestiae</a></li>
+									<li><a href="products.ftl">eum fugiat</a></li>
+									<li><a href="products.ftl">consequatur eum</a></li>
 								</ul>	
 							</div>												
 						</div>
@@ -141,12 +141,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Seating</h4>
 								<ul>
-									<li><a href="products.html">eum fugiat</a></li>
-									<li><a href="products.html">commodi consequatur</a></li>
-									<li><a href="products.html">illum qui dolorem</a></li>
-									<li><a href="products.html">nihil molestiae</a></li>
-									<li><a href="products.html">eum fugiat</a></li>
-									<li><a href="products.html">consequatur eum</a></li>
+									<li><a href="products.ftl">eum fugiat</a></li>
+									<li><a href="products.ftl">commodi consequatur</a></li>
+									<li><a href="products.ftl">illum qui dolorem</a></li>
+									<li><a href="products.ftl">nihil molestiae</a></li>
+									<li><a href="products.ftl">eum fugiat</a></li>
+									<li><a href="products.ftl">consequatur eum</a></li>
 								</ul>	
 							</div>						
 						</div>
@@ -178,24 +178,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 
 			<div class="products-grids">
-				<div class="col-md-8 products-grid-left">
+				<div class="col-md-12 products-grid-left">
 					<div class="products-grid-lft">
+					<#list dealList as deal>
 						<div class="products-grd">
 							<div class="p-one simpleCart_shelfItem prd">
 								<a href="single.html">
-										<img src="images/test2.png" alt="" class="img-responsive" />
-										<div class="mask">
-											<span>查看</span>
-										</div>
+										<img src="/${helper.getSingleImageUrlForDealLIst(deal)}" class="img-responsive" />
 								</a>
-								<h4>商品名</h4>
-								<p><a class="item_add" href="#"><i></i> <span class=" item_price valsa">价格</span></a></p>
+								<h4>${deal.deal_name}</h4>
+								<p><a class="item_add" href="#"><i></i> <span class=" item_price valsa">${deal.dealPrice}</span></a></p>
 								<div class="pro-grd">
-									<a href="single.html">10% Off
-									</a>
+									<a href="single.html">查看
+                                    </a>
 								</div>
-							</div>	
+							</div>
 						</div>
+					</#list>
+
+
 
 						<div class="products-grd">
 							<div class="p-one simpleCart_shelfItem prd">
@@ -212,22 +213,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</div>
 							</div>	
 						</div>
-
-						<div class="products-grd">
-							<div class="p-one simpleCart_shelfItem prd">
-								<a href="single.html">
-										<img src="../../images/test2.png" alt="" class="img-responsive" />
-										<div class="mask">
-											<span>Quick View</span>
-										</div>
-								</a>
-								<h4>商品名</h4>
-								<p><a class="item_add" href="#"><i></i> <span class=" item_price valsa">价格</span></a></p>
-								<div class="pro-grd">
-									<a href="single.html">10% Off</a>
-								</div>
-							</div>	
-						</div>
 						<div class="clearfix"> </div>
 					</div>
 					<div class="products-grid-lft">
@@ -277,105 +262,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>	
 						</div>
 						<div class="clearfix"> </div>
-					</div>
-					<div class="products-grid-lft">
-						<div class="products-grd">
-							<div class="p-one simpleCart_shelfItem prd">
-								<a href="single.html">
-										<img src="../../images/test2.png" alt="" class="img-responsive" />
-										<div class="mask">
-											<span>Quick View</span>
-										</div>
-								</a>
-								<h4>商品名</h4>
-								<p><a class="item_add" href="#"><i></i> <span class=" item_price valsa">价格</span></a></p>
-								<div class="pro-grd">
-									<a href="single.html">10% Off</a>
-								</div>
-							</div>	
-						</div>
-						<div class="products-grd">
-							<div class="p-one simpleCart_shelfItem prd">
-								<a href="single.html">
-										<img src="../../images/test2.png" alt="" class="img-responsive" />
-										<div class="mask">
-											<span>Quick View</span>
-										</div>
-								</a>
-								<h4>商品名</h4>
-								<p><a class="item_add" href="#"><i></i> <span class=" item_price valsa">价格</span></a></p>
-								<div class="pro-grd">
-									<a href="single.html">10% Off</a>
-								</div>
-							</div>	
-						</div>
-						<div class="products-grd">
-							<div class="p-one simpleCart_shelfItem prd">
-								<a href="single.html">
-										<img src="../../images/test2.png" alt="" class="img-responsive" />
-										<div class="mask">
-											<span>Quick View</span>
-										</div>
-								</a>
-								<h4>商品名</h4>
-								<p><a class="item_add" href="#"><i></i> <span class=" item_price valsa">价格</span></a></p>
-								<div class="pro-grd">
-									<a href="single.html">10% Off</a>
-								</div>
-							</div>	
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-				<div class="col-md-4 products-grid-right">
-					<div class="w_sidebar">
-						<div class="w_nav1">
-							<h4>所有</h4>
-							<ul>
-								<li><a href="women.html">广东地区</a></li>
-								<li><a href="#">华南地区</a></li>
-								<li><a href="#">华北地区</a></li>
-								<li><a href="#">东北三省</a></li>
-								<li><a href="#">新疆地区</a></li>
-								<li><a href="#">海外</a></li>
-							</ul>	
-						</div>
-						<section  class="sky-form">
-							<h4>分类</h4>
-							<div class="row1 scroll-pane">
-								<div class="col col-4">
-									<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>传统糕点</label>
-								</div>
-								<div class="col col-4">
-									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>肉类即食</label>
-									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>海味即食</label>
-									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>糖果</label>
-									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>豆干零食</label>
-									<label class="checkbox"><input type="checkbox" name="checkbox" ><i></i>葡萄干</label>
-								</div>
-							</div>
-						</section>
-							</div>
-						</section>
-						<section  class="sky-form">
-							<h4>品牌</h4>
-							<div class="row1 scroll-pane">
-								<div class="col col-4">
-									<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>品牌1</label>
-									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>品牌2</label>
-									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>品牌3</label>
-								</div>
-								<div class="col col-4">
-									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>品牌4</label>
-									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>品牌5</label>
-									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>品牌6</label>
-									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>品牌7</label>
-									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>品牌8</label>
-									<label class="checkbox"><input type="checkbox" name="checkbox" ><i></i>品牌9</label>
-									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>品牌10</label>
-								</div>
-							</div>
-						</section>
 					</div>
 				</div>
 				<div class="clearfix"></div>

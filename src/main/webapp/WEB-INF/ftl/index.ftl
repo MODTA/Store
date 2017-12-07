@@ -99,7 +99,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<ul>
 									<#if category.children??>
 									    <#list category.children as child>
-									        <li><a href="${ctx}/producets/${child.urlName}">${child.name}</a></li>
+									        <li><a href="${ctx}/products/${child.urlName}">${child.name}</a></li>
 									    </#list>
 									</#if>
 								</ul>	

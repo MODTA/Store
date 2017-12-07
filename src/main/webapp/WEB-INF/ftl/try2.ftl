@@ -7,10 +7,14 @@
 
 </head>
 <body>
-试一下
-<#list categories as category>
-    ${category.urlName}
-</#list>
+试一
 
+<#--<img src="pic/imagessr/basic/1.jpg"/>-->
+
+
+<#list dealList as deal>
+${deal.image_id}
+<img src="/${helper.getDealImageUrlForDealList(deal)}"/>
+</#list>
 </body>
 </html>
