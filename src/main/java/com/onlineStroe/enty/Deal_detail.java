@@ -9,6 +9,16 @@ public class Deal_detail implements Serializable {
     private Integer id;
     private Integer deal_id;
     private String deal_detail;
+    private String littleTitle;
+
+
+    public String getLittleTitle() {
+        return littleTitle;
+    }
+
+    public void setLittleTitle(String littleTitle) {
+        this.littleTitle = littleTitle;
+    }
 
     public Integer getId() {
         return id;

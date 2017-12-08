@@ -16,8 +16,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="../../js/jquery-1.11.1.min.js"></script>
 <!-- //js -->
 <!-- start-smoth-scrolling -->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript" src="../../js/move-top.js"></script>
+<script type="text/javascript" src="../../js/easing.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event){		
@@ -28,11 +28,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </script>
 <!-- start-smoth-scrolling -->
 <!-- start menu -->
-<link href="css/megamenu.css" rel="stylesheet" type="text/css" media="all" />
-<script type="text/javascript" src="js/megamenu.js"></script>
+<link href="../../css/megamenu.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="../../js/megamenu.js"></script>
 <script>$(document).ready(function(){$(".megamenu").megamenu();});</script>
-<script src="js/menu_jquery.js"></script>
-<script src="js/simpleCart.min.js"> </script>
+<script src="../../js/menu_jquery.js"></script>
+<script src="../../js/simpleCart.min.js"> </script>
 <link href='http://fonts.useso.com/css?family=Monda:400,700' rel='stylesheet' type='text/css'>
 </head>
 	
@@ -65,14 +65,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="header_top">
 	<div class="container">
 		<div class="logo">
-		 	<a href="index.ftl">Pendent Store</a>
+		 	<a href="index.ftl">买就完事商城</a>
 		</div>
 		<div class="header_right">
 			<div class="cart box_1">
 				<a href="checkout.html">
 				<h3> <div class="total">
 					<span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)</div>
-					<img src="images/cart1.png" alt=""/></h3>
+					<img src="../../images/cart1.png" alt=""/></h3>
 				</a>
 				<p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
 				<div class="clearfix"> </div>
@@ -96,12 +96,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Popular Brands</h4>
 								<ul>
-									<li><a href="products.ftl">Slave Bracelets</a></li>
-									<li><a href="products.ftl">Rings</a></li>
-									<li><a href="products.ftl">Necklaces</a></li>
-									<li><a href="products.ftl">Chokers</a></li>
-									<li><a href="products.ftl">Cuff Links</a></li>
-									<li><a href="products.ftl">Bangles</a></li>
+									<li><a href="products.html">Slave Bracelets</a></li>
+									<li><a href="products.html">Rings</a></li>
+									<li><a href="products.html">Necklaces</a></li>
+									<li><a href="products.html">Chokers</a></li>
+									<li><a href="products.html">Cuff Links</a></li>									
+									<li><a href="products.html">Bangles</a></li>
 								</ul>	
 							</div>							
 						</div>
@@ -109,12 +109,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Style Zone</h4>
 								<ul>
-									<li><a href="products.ftl">Men</a></li>
-									<li><a href="products.ftl">Women</a></li>
-									<li><a href="products.ftl">Brands</a></li>
-									<li><a href="products.ftl">Kids</a></li>
-									<li><a href="products.ftl">Accessories</a></li>
-									<li><a href="products.ftl">Style Videos</a></li>
+									<li><a href="products.html">Men</a></li>
+									<li><a href="products.html">Women</a></li>
+									<li><a href="products.html">Brands</a></li>
+									<li><a href="products.html">Kids</a></li>
+									<li><a href="products.html">Accessories</a></li>
+									<li><a href="products.html">Style Videos</a></li>
 								</ul>	
 							</div>							
 						</div>
@@ -122,12 +122,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>All Jewellery</h4>
 								<ul>
-									<li><a href="products.ftl">eum fugiat</a></li>
-									<li><a href="products.ftl">commodi consequatur</a></li>
-									<li><a href="products.ftl">illum qui dolorem</a></li>
-									<li><a href="products.ftl">nihil molestiae</a></li>
-									<li><a href="products.ftl">eum fugiat</a></li>
-									<li><a href="products.ftl">consequatur eum</a></li>
+									<li><a href="products.html">eum fugiat</a></li>
+									<li><a href="products.html">commodi consequatur</a></li>
+									<li><a href="products.html">illum qui dolorem</a></li>
+									<li><a href="products.html">nihil molestiae</a></li>
+									<li><a href="products.html">eum fugiat</a></li>
+									<li><a href="products.html">consequatur eum</a></li>
 								</ul>	
 							</div>												
 						</div>
@@ -135,12 +135,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Seating</h4>
 								<ul>
-									<li><a href="products.ftl">eum fugiat</a></li>
-									<li><a href="products.ftl">commodi consequatur</a></li>
-									<li><a href="products.ftl">illum qui dolorem</a></li>
-									<li><a href="products.ftl">nihil molestiae</a></li>
-									<li><a href="products.ftl">eum fugiat</a></li>
-									<li><a href="products.ftl">consequatur eum</a></li>
+									<li><a href="products.html">eum fugiat</a></li>
+									<li><a href="products.html">commodi consequatur</a></li>
+									<li><a href="products.html">illum qui dolorem</a></li>
+									<li><a href="products.html">nihil molestiae</a></li>
+									<li><a href="products.html">eum fugiat</a></li>
+									<li><a href="products.html">consequatur eum</a></li>
 								</ul>	
 							</div>						
 						</div>
@@ -169,26 +169,26 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- single-page -->
 <div class="single">
 <div class="container">
-	<div class="single-page">					 
+	<div class="single-page">
 		<div class="flexslider details-lft-inf">
 			<ul class="slides">
-				<li data-thumb="images/test2.png">
-					<img src="images/test2.png" />
+				<li data-thumb="">
+					<img src="/${helper.getSingleImageUrlForDealLIst(deal)}" />
 				</li>
-				<li data-thumb="images/test2.png">
-					<img src="images/test2.png" />
+				<!--<li data-thumb="images/test2.png">
+					<img src="../../images/22.jpg" />
 				</li>
-				<li data-thumb="images/test2.png">
-					<img src="images/test2.png" />
+				<li data-thumb="">
+					<img src="../../images/test2.png" />
 				</li>
-				<li data-thumb="images/test2.png">
-					<img src="images/test2.png" />
-				</li>
+				<li data-thumb="">
+					<img src="../../images/test2.png" />
+				</li>-->
 			</ul>
 		</div>
 			<!-- FlexSlider -->
-			  <script defer src="js/jquery.flexslider.js"></script>
-			<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+			  <script defer src="../../js/jquery.flexslider.js"></script>
+			<link rel="stylesheet" href="../../css/flexslider.css" type="text/css" media="screen" />
 
 				<script>
 			// Can also be used with $(document).ready()
@@ -200,30 +200,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			});
 			</script>
 		<div class="details-left-info">
-			<h3>商品名称</h3>
-				<h4>商品小标题 </h4>
+			<h3>${deal.deal_name}</h3>
+				<h4>${dealDetail.littleTitle}</h4>
 			<div class="simpleCart_shelfItem">
 				<div class="col-rad">
-					<div class="col-rad-left">
-						<select class="arrival">
-							<option>类型1</option>
-							<option>类型2</option>
-							<option>类型3</option>
-							<option>类型4</option>
-						</select>
-					</div>
-					<div class="col-rad-right">
-						<section>
-							<div class="row">
-								<div class="colr ert">
-									<label class="radio"><input type="radio" name="radio" checked=""><i></i>分量1</label>
-								</div>
-								<div class="colr">
-									<label class="radio"><input type="radio" name="radio"><i></i>分量2</label>
-								</div>
-							</div>						
-						</section>
-					</div>
 					<div class="clearfix"> </div>
 				</div>
 					<div class="clearfix"> </div>
@@ -233,8 +213,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<p class="qty">购买数量</p><input min="1" type="number" id="quantity" name="quantity" value="1" class="form-control input-small">
 
 			<div style="display:block;margin-top:20px">
-				<a class="price">价格:</a>
-				<input type="text" value="价格" readonly="readonly" >
+
+				<p><a class="price">价格:</a>${deal.dealPrice}</p>
 			</div>
 
 
@@ -247,7 +227,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="flower-type">
 			<p class=p1>			店面  ::<a href="#">xxx Store</a></p>
-			<p>库存  ::<a href="#">22</a></p>
+			<p>库存  ::<a href="#">${deal.sku_id}</a></p>
 			</div>
 			<p class="desc">
 			</p>
@@ -266,11 +246,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </div>
     <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
       <div class="panel-body">
-		  商品详情信息
+		  ${dealDetail.deal_detail}
       </div>
     </div>
   </div>
-  <div class="panel panel-default">
+  <!--<div class="panel panel-default">
     <div class="panel-heading" role="tab" id="headingTwo">
       <h4 class="panel-title">
         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -311,7 +291,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		  帮助内容
       </div>
     </div>
-  </div>
+  </div>-->
 </div>
 <!-- collapse -->
 <!-- related products -->
@@ -323,7 +303,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="footer">
 <!-- //footer -->
 <!-- for bootstrap working -->
-		<script src="js/bootstrap.js"> </script>
+		<script src="../../js/bootstrap.js"> </script>
 <!-- //for bootstrap working -->
 	</div>
 </body>

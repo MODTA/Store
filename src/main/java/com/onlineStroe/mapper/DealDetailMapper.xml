@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.onlineStroe.dao.Deal.DealDetailDAO">
+    <resultMap id="DealDetail" type="com.onlineStroe.enty.Deal_detail">
+        <id property="id" column="id"/>
+        <result property="deal_id" column="deal_id"/>
+        <result property="deal_detail" column="deal_detail"/>
+        <result property="littleTitle" column="littleTitle"/>
+    </resultMap>
+
+    <select id="selectDealDetailByDealId" resultMap="DealDetail">
+        select * from deal_detail WHERE deal_id=#{_parameter,jdbcType=BIGINT};
+    </select>
+</mapper>

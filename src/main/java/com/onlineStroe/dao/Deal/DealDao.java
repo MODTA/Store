@@ -12,4 +12,6 @@ import java.util.List;
 public interface DealDao {
 
     public List<Deal> selectDealsOfCategories(List<Integer> categoryIds);
+
+    public Deal selectDealById(Integer dealId);
 }

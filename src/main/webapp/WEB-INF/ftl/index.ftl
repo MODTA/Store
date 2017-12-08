@@ -156,7 +156,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<h1>商品1</h1>
 									<p>商品推荐标题语</p>
 									<div class="buy">
-										<a href="single.html">Explore</a>
+										<a href="single.ftl">Explore</a>
 									</div>
 								</div>
 							</div>
@@ -169,7 +169,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<h1>商品1</h1>
 									<p>商品推荐标题语</p>
 									<div class="buy">
-										<a href="single.html">Explore</a>
+										<a href="single.ftl">Explore</a>
 									</div>
 								</div>
 							</div>
@@ -182,7 +182,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<h1>商品1</h1>
 									<p>商品推荐标题语</p>
 									<div class="buy">
-										<a href="single.html">Explore</a>
+										<a href="single.ftl">Explore</a>
 									</div>
 								</div>
 							</div>
@@ -267,7 +267,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<p class="non"></p>
 				<p class="rep"></p>
 				<div class="buy wel">
-					<a href="single.html">更多</a>
+					<a href="single.ftl">更多</a>
 				</div>
 			</div>
 		</div>
@@ -315,7 +315,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="product-one">
 				<div class="col-md-2 product-left"> 
 					<div class="p-one simpleCart_shelfItem jwe">							
-							<a href="single.html">
+							<a href="single.ftl">
 								<img src="../../images/test2.png" alt="" class="img-responsive" />
 								<div class="mask">
 									<span>Quick View</span>
@@ -334,7 +334,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="col-md-2 product-left"> 
 					<div class="p-one simpleCart_shelfItem jwe">
-						<a href="single.html">
+						<a href="single.ftl">
 								<img src="../../images/test2.png" alt="" class="img-responsive" />
 								<div class="mask">
 									<span>Quick View</span>
@@ -353,7 +353,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="col-md-2 product-left"> 
 					<div class="p-one simpleCart_shelfItem jwe">
-						<a href="single.html">
+						<a href="single.ftl">
 								<img src="../../images/test2.png" alt="" class="img-responsive" />
 								<div class="mask">
 									<span>Quick View</span>
@@ -372,7 +372,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="col-md-2 product-left"> 
 					<div class="p-one simpleCart_shelfItem jwe">
-						<a href="single.html">
+						<a href="single.ftl">
 								<img src="../../images/test2.png" alt="" class="img-responsive" />
 								<div class="mask">
 									<span>Quick View</span>
@@ -391,7 +391,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="col-md-2 product-left"> 
 					<div class="p-one simpleCart_shelfItem jwe">							
-							<a href="single.html">
+							<a href="single.ftl">
 								<img src="../../images/test2.png" alt="" class="img-responsive" />
 								<div class="mask">
 									<span>Quick View</span>
@@ -410,7 +410,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="col-md-2 product-left"> 
 					<div class="p-one simpleCart_shelfItem jwe">
-						<a href="single.html">
+						<a href="single.ftl">
 								<img src="../../images/test2.png" alt="" class="img-responsive" />
 								<div class="mask">
 									<span>Quick View</span>
@@ -432,7 +432,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="product-one">
 				<div class="col-md-2 product-left"> 
 					<div class="p-one simpleCart_shelfItem jwe">							
-							<a href="single.html">
+							<a href="single.ftl">
 								<img src="../../images/test2.png" alt="" class="img-responsive" />
 								<div class="mask">
 									<span>Quick View</span>
@@ -451,7 +451,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="col-md-2 product-left"> 
 					<div class="p-one simpleCart_shelfItem jwe">
-						<a href="single.html">
+						<a href="single.ftl">
 								<img src="../../images/test2.png" alt="" class="img-responsive" />
 								<div class="mask">
 									<span>Quick View</span>
@@ -470,7 +470,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="col-md-2 product-left"> 
 					<div class="p-one simpleCart_shelfItem jwe">
-						<a href="single.html">
+						<a href="single.ftl">
 								<img src="../../images/test2.png" alt="" class="img-responsive" />
 								<div class="mask">
 									<span>Quick View</span>
@@ -489,7 +489,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="col-md-2 product-left"> 
 					<div class="p-one simpleCart_shelfItem jwe">
-						<a href="single.html">
+						<a href="single.ftl">
 								<img src="../../images/test2.png" alt="" class="img-responsive" />
 								<div class="mask">
 									<span>Quick View</span>
@@ -508,7 +508,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="col-md-2 product-left"> 
 					<div class="p-one simpleCart_shelfItem jwe">							
-							<a href="single.html">
+							<a href="single.ftl">
 								<img src="../../images/test2.png" alt="" class="img-responsive" />
 								<div class="mask">
 									<span>Quick View</span>
@@ -527,7 +527,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="col-md-2 product-left"> 
 					<div class="p-one simpleCart_shelfItem jwe">
-						<a href="single.html">
+						<a href="single.ftl">
 								<img src="../../images/test2.png" alt="" class="img-responsive" />
 								<div class="mask">
 									<span>Quick View</span>

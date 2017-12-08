@@ -25,4 +25,9 @@ public class DealServiceImp implements DealService {
     public List<Deal> getDealsOfCategories(List<Integer> categoryIds) {
         return dealDao.selectDealsOfCategories(categoryIds);
     }
+
+    @Override
+    public Deal selectDealById(Integer dealId) {
+        return dealDao.selectDealById(dealId);
+    }
 }

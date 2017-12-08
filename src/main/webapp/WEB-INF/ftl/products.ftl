@@ -71,7 +71,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="header_top">
 	<div class="container">
 		<div class="logo">
-		 	<a href="index.ftl">Pendent Store</a>
+		 	<a href="index.ftl">买就完事商城</a>
 		</div>
 		<div class="header_right">
 			<div class="cart box_1">
@@ -183,86 +183,97 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<#list dealList as deal>
 						<div class="products-grd">
 							<div class="p-one simpleCart_shelfItem prd">
-								<a href="single.html">
-										<img src="/${helper.getSingleImageUrlForDealLIst(deal)}" class="img-responsive" />
+								<a href="single.ftl">
+										<img src="/${helper.getProductsImageUrlForDealList(deal)}" class="img-responsive" />
 								</a>
 								<h4>${deal.deal_name}</h4>
 								<p><a class="item_add" href="#"><i></i> <span class=" item_price valsa">${deal.dealPrice}</span></a></p>
 								<div class="pro-grd">
-									<a href="single.html">查看
+									<a href="${ctx}/single/${deal.id}">查看
                                     </a>
 								</div>
 							</div>
 						</div>
 					</#list>
 
+						<div class="products-grd">
+							<div class="p-one simpleCart_shelfItem prd">
+								<a href="single.ftl">
+										<img src="../../images/try1.jpg" alt="" class="img-responsive" />
+										<div class="mask">
+											<span>Quick View</span>
+										</div>
+								</a>
+								<h4>商品名</h4>
+								<p><a class="item_add" href="#"><i></i> <span class=" item_price valsa">价格</span></a></p>
+								<div class="pro-grd">
+									<a href="single.ftl">10% Off</a>
+								</div>
+							</div>	
+						</div>
+                        <div class="products-grd">
+                            <div class="p-one simpleCart_shelfItem prd">
+                                <a href="single.ftl">
+                                    <img src="../../images/try1.jpg" alt="" class="img-responsive" />
+                                    <div class="mask">
+                                        <span>Quick View</span>
+                                    </div>
+                                </a>
+                                <h4>商品名</h4>
+                                <p><a class="item_add" href="#"><i></i> <span class=" item_price valsa">价格</span></a></p>
+                                <div class="pro-grd">
+                                    <a href="single.ftl">10% Off</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-grd">
+                            <div class="p-one simpleCart_shelfItem prd">
+                                <a href="single.ftl">
+                                    <img src="../../images/try1.jpg" alt="" class="img-responsive" />
+                                    <div class="mask">
+                                        <span>Quick View</span>
+                                    </div>
+                                </a>
+                                <h4>商品名</h4>
+                                <p><a class="item_add" href="#"><i></i> <span class=" item_price valsa">价格</span></a></p>
+                                <div class="pro-grd">
+                                    <a href="single.ftl">10% Off</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-grd">
+                            <div class="p-one simpleCart_shelfItem prd">
+                                <a href="single.ftl">
+                                    <img src="../../images/try1.jpg" alt="" class="img-responsive" />
+                                    <div class="mask">
+                                        <span>Quick View</span>
+                                    </div>
+                                </a>
+                                <h4>商品名</h4>
+                                <p><a class="item_add" href="#"><i></i> <span class=" item_price valsa">价格</span></a></p>
+                                <div class="pro-grd">
+                                    <a href="single.ftl">10% Off</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-grd">
+                            <div class="p-one simpleCart_shelfItem prd">
+                                <a href="single.ftl">
+                                    <img src="../../images/try1.jpg" alt="" class="img-responsive" />
+                                    <div class="mask">
+                                        <span>Quick View</span>
+                                    </div>
+                                </a>
+                                <h4>商品名</h4>
+                                <p><a class="item_add" href="#"><i></i> <span class=" item_price valsa">价格</span></a></p>
+                                <div class="pro-grd">
+                                    <a href="single.ftl">10% Off</a>
+                                </div>
+                            </div>
+                        </div>
 
+					</div>
 
-						<div class="products-grd">
-							<div class="p-one simpleCart_shelfItem prd">
-								<a href="single.html">
-										<img src="../../images/test2.png" alt="" class="img-responsive" />
-										<div class="mask">
-											<span>Quick View</span>
-										</div>
-								</a>
-								<h4>商品名</h4>
-								<p><a class="item_add" href="#"><i></i> <span class=" item_price valsa">价格</span></a></p>
-								<div class="pro-grd">
-									<a href="single.html">10% Off</a>
-								</div>
-							</div>	
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="products-grid-lft">
-						<div class="products-grd">
-							<div class="p-one simpleCart_shelfItem prd">
-								<a href="single.html">
-										<img src="../../images/test2.png" alt="" class="img-responsive" />
-										<div class="mask">
-											<span>Quick View</span>
-										</div>
-								</a>
-								<h4>商品名</h4>
-								<p><a class="item_add" href="#"><i></i> <span class=" item_price valsa">价格</span></a></p>
-								<div class="pro-grd">
-									<a href="single.html">10% Off</a>
-								</div>
-							</div>	
-						</div>
-						<div class="products-grd">
-							<div class="p-one simpleCart_shelfItem prd">
-								<a href="single.html">
-										<img src="../../images/test2.png" alt="" class="img-responsive" />
-										<div class="mask">
-											<span>Quick View</span>
-										</div>
-								</a>
-								<h4>商品名</h4>
-								<p><a class="item_add" href="#"><i></i> <span class=" item_price valsa">价格</span></a></p>
-								<div class="pro-grd">
-									<a href="single.html">10% Off</a>
-								</div>
-							</div>	
-						</div>
-						<div class="products-grd">
-							<div class="p-one simpleCart_shelfItem prd">
-								<a href="single.html">
-										<img src="../../images/test2.png" alt="" class="img-responsive" />
-										<div class="mask">
-											<span>Quick View</span>
-										</div>
-								</a>
-								<h4>商品名</h4>
-								<p><a class="item_add" href="#"><i></i> <span class=" item_price valsa">价格</span></a></p>
-								<div class="pro-grd">
-									<a href="single.html">10% Off</a>
-								</div>
-							</div>	
-						</div>
-						<div class="clearfix"> </div>
-					</div>
 				</div>
 				<div class="clearfix"></div>
 			</div>

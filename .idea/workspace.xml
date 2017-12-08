@@ -1,68 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea24bd0e-4554-45fb-a2d2-971e9396333b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imageLocation/images/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imageLocation/images/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imageLocation/images/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imageLocation/images/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imageLocation/imagessr/basic/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imageLocation/imagessr/basic/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imageLocation/imagessr/basic/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imageLocation/imagessr/basic/blank.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/DealController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/dao/Image/ImageDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/utils/ImageConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/utils/ImageUrl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/ImageMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/application/applicationContext-component.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/dao/User/UserDao.class" afterPath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/dao/User/UserDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/enty/deal.class" afterPath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/enty/deal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/onlineStroe/dao/User/UserDao.class" afterPath="$PROJECT_DIR$/target/classes/com/onlineStroe/dao/User/UserDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/onlineStroe/enty/deal.class" afterPath="$PROJECT_DIR$/target/classes/com/onlineStroe/enty/deal.class" />
+    <list default="true" id="ea24bd0e-4554-45fb-a2d2-971e9396333b" name="Default" comment="商品详情的controller以及dealmapper更新">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imageLocation/images/8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imageLocation/imagessr/basic/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imageLocation/imagessr/basic/8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/try1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/try2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/CartController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/DealDetailMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/CartService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/DealDetailService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/imp/CartServiceImp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/imp/DealDeatialServiceImp.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imageLocation/images/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imageLocation/images/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imageLocation/images/5.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imageLocation/images/3.jpg" afterPath="$PROJECT_DIR$/imageLocation/images/3.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_thymeleaf_thymeleaf_Release.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_thymeleaf_thymeleaf_Release.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_thymeleaf_thymeleaf_spring3_Release.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_thymeleaf_thymeleaf_spring3_Release.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Store.iml" afterPath="$PROJECT_DIR$/Store.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/Interceptor/CtxIntercepor.java" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/Interceptor/CtxIntercepor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/Utils/ImageUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/Utils/ImageUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/component/FrontendBaseHelper.java" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/component/FrontendBaseHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/component/ModuleConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/component/ModuleConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/component/baseSiteHelper.java" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/component/baseSiteHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/IndexController.java" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/IndexController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/ProductController.java" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/ProductController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/Utils/CookieUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/Utils/CookieUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/DealController.java" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/DealController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/dao/Deal/DealDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/dao/Deal/DealDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/dao/User/UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/dao/User/UserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/Deal.java" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/Deal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/dao/Deal/DealDetailDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/dao/Deal/DealDetailDAO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/Deal_detail.java" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/Deal_detail.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/DealCategoryMappper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/DealCategoryMappper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/DealMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/DealMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/UserMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/DealService.java" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/DealService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/ImageService.java" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/ImageService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/imp/DealServiceImp.java" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/imp/DealServiceImp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/imp/ImageServiceImp.java" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/imp/ImageServiceImp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/checkout.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/checkout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/contact.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/contact.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/index.ftl" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/index.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/login.ftl" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/login.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/single.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/single.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try1.ftl" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try1.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/products.ftl" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/products.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try2.ftl" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try2.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/application/applicationContext-service.xml" afterPath="$PROJECT_DIR$/src/resources/application/applicationContext-service.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/springmvc.xml" afterPath="$PROJECT_DIR$/src/resources/springmvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/classes/application/applicationContext-service.xml" afterPath="$PROJECT_DIR$/target/Store/WEB-INF/classes/application/applicationContext-service.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/target/Store/WEB-INF/classes/com/onlineStroe/mapper/UserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Store/WEB-INF/classes/springmvc.xml" afterPath="$PROJECT_DIR$/target/Store/WEB-INF/classes/springmvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application/applicationContext-service.xml" afterPath="$PROJECT_DIR$/target/classes/application/applicationContext-service.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/onlineStroe/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/target/classes/com/onlineStroe/mapper/UserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springmvc.xml" afterPath="$PROJECT_DIR$/target/classes/springmvc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/imageLocation/imagessr/basic/01.jpg" afterPath="$PROJECT_DIR$/imageLocation/imagessr/basic/1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/component/ImageConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/component/ImageConfig_unuse.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/Image_info.java" afterPath="$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/ImageInfo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/products.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/products.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/single.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/single.ftl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try3.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try3.ftl" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -92,32 +64,117 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="HelperIntercepor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/Interceptor/HelperIntercepor.java">
+      <file leaf-file-name="DealController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/DealController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="54" column="69" lean-forward="false" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="69" />
+            <state relative-caret-position="298">
+              <caret line="38" column="38" lean-forward="false" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DealDetailDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/dao/Deal/DealDetailDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="baseSiteHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/component/baseSiteHelper.java">
+      <file leaf-file-name="DealDeatialServiceImp.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/service/imp/DealDeatialServiceImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="13" column="46" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="46" />
+            <state relative-caret-position="224">
+              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#595#596#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/single.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="303" column="17" lean-forward="true" selection-start-line="303" selection-start-column="17" selection-end-line="303" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="products.ftl" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/products.ftl">
+      <file leaf-file-name="CartController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/CartController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="193" column="38" lean-forward="true" selection-start-line="193" selection-start-column="38" selection-end-line="193" selection-end-column="38" />
+            <state relative-caret-position="261">
+              <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CookieUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/Utils/CookieUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="40" column="18" lean-forward="false" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="444">
+              <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DealDetailService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/service/DealDetailService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Deal_detail.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/Deal_detail.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="30" />
+              <folding>
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#405#406#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DealDetailMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/DealDetailMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+              <folding>
+                <marker date="1512704778493" expanded="true" signature="591:660" ph="select * fro... deal_detail" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,27 +185,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
-        <option value="Interface" />
         <option value="FxmlFile" />
         <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Tag Library Descriptor" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>/WEB-INF</find>
-      <find>url</find>
-      <find>spci</find>
-      <find>.banner-info1</find>
-      <find>img</find>
-      <find>images</find>
-      <find>src</find>
-      <find>cre</find>
-      <find>href</find>
-      <find>ind</find>
-      <find>i</find>
       <find>首页</find>
       <find>&lt;#</find>
       <find>bottom1</find>
@@ -168,7 +215,21 @@
       <find>price</find>
       <find>商品</find>
       <find>products-grid-left</find>
+      <find>.p-one</find>
+      <find>.pro-grd a</find>
+      <find>products-grid-lf</find>
+      <find>.products-grd:nth-child(2)</find>
+      <find>clearfix</find>
+      <find>test2</find>
+      <find>test2.png</find>
+      <find>.details-left-info p</find>
+      <find>.flower-type</find>
+      <find>flow</find>
+      <find>img</find>
     </findStrings>
+    <replaceStrings>
+      <replace>try1.jpg</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -184,21 +245,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/Utils/Exception/FrameworkException.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Widget/ueditor/1.4.3/third-party/video-js/video-js.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/Image_info.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/Utils/DealConstant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/Interceptor/HelperIntercepor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/DealCategory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/imp/DealCategoryServiceImp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/DealCategoryService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/dao/DealCategory/DealCategoryDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/utils/Condition.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/Search.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/imp/DealServiceImp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/dao/Deal/DealDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/DealService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/DealCategoryMappper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try1.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/ImageMapper.fxml" />
@@ -214,7 +260,6 @@
         <option value="$PROJECT_DIR$/src/resources/application/applicationContext-service.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/Utils/ImageUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/utils/ImageConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/DealController.java" />
         <option value="$PROJECT_DIR$/src/resources/springmvc.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/utils/SpringApplicationContext.java" />
         <option value="$PROJECT_DIR$/src/resources/application/applicationContext-component.xml" />
@@ -222,19 +267,35 @@
         <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/component/ImageConfig_unuse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/component/ModuleConfig.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/products.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/Deal_detail.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/Deal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/DealMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/ProductController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/Interceptor/CtxIntercepor.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/index.ftl" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try3.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try2.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/Utils/Exception/BaseException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/utils/ImageUrl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/style.css" />
         <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/component/baseSiteHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/style.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/products.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/dao/Deal/DealDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/imp/DealCategoryServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/imp/DealServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/DealService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try3.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try2.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/single.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/DealMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/dao/Deal/DealDetailDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/imp/DealDeatialService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/imp/CartServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/DealDetailService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/service/imp/DealDeatialServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/DealController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/Deal_detail.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/DealDetailMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/single.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/Utils/CookieUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/CartController.java" />
       </list>
     </option>
   </component>
@@ -370,7 +431,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -493,11 +555,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onlineStroe" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -518,80 +584,37 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Store" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="imageLocation" />
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="imagessr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Store" />
+              <option name="myItemId" value="onlineStroe" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="imageLocation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imagessr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imageLocation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15820312" />
     <property name="project.structure.side.proportion" value="0.30486685" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://G:/Study/Store/src/main/java/com/onlineStroe/enty/Order.java" />
   </component>
@@ -601,11 +624,11 @@
       <recent name="com.onlineStroe.component" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\Study\Store\imageLocation\images" />
+      <recent name="G:\Study\Store\src\main\webapp\images" />
+      <recent name="G:\Study\Store\src\main\webapp\WEB-INF\ftl" />
       <recent name="G:\Study\Store\imageLocation\imagessr\basic" />
+      <recent name="G:\Study\Store\imageLocation\images" />
       <recent name="G:\Study\Store\imageLocation\images\detials" />
-      <recent name="G:\学习\Store\src\resources" />
-      <recent name="G:\学习\Store\src\main\webapp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.onlineStroe.enty" />
@@ -1367,7 +1390,9 @@
       <workItem from="1512521692200" duration="6406000" />
       <workItem from="1512565505222" duration="2398000" />
       <workItem from="1512577784295" duration="1150000" />
-      <workItem from="1512622777890" duration="12560000" />
+      <workItem from="1512622777890" duration="26015000" />
+      <workItem from="1512664614601" duration="401000" />
+      <workItem from="1512697151662" duration="8118000" />
     </task>
     <task id="LOCAL-00001" summary="aaaa">
       <created>1511684797345</created>
@@ -1439,7 +1464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1512466497206</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="图片操作">
+      <created>1512639775133</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1512639775133</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1463,7 +1495,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="296233000" />
+    <option name="totallyTimeSpent" value="318207000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1488,11 +1520,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.49785408" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.03901895" sideWeight="0.73819745" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33110368" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.49785408" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16499442" sideWeight="0.73819745" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.49785408" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5852843" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16255365" sideWeight="0.46781117" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18884121" sideWeight="0.46781117" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18831168" sideWeight="0.53218883" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21482684" sideWeight="0.5183585" order="7" side_tool="true" content_ui="tabs" />
@@ -1504,7 +1536,7 @@
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2167991" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37569678" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1533,14 +1565,14 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.49785408" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14604236" sideWeight="0.73819745" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12374582" sideWeight="0.73819745" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33110368" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.49785408" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.49785408" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5852843" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16255365" sideWeight="0.46781117" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20976394" sideWeight="0.46781117" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18831168" sideWeight="0.53218883" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2167991" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37569678" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21482684" sideWeight="0.5183585" order="7" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
@@ -1591,7 +1623,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1600,284 +1632,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13653">
-          <caret line="369" column="44" lean-forward="false" selection-start-line="369" selection-start-column="44" selection-end-line="369" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/service/imp/ImageServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/dao/Image/ImageDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/Search.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/image.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/DealCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="789">
-          <caret line="94" column="19" lean-forward="false" selection-start-line="94" selection-start-column="19" selection-end-line="94" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/DealCategoryMappper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="39" />
-          <folding>
-            <marker date="1512472883900" expanded="true" signature="776:803" ph="select * fro... deal_Category" />
-            <marker date="1512472883900" expanded="true" signature="926:953" ph="select * fro... deal_Category" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="91" column="30" lean-forward="false" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="30" />
-          <folding>
-            <marker date="1512522874748" expanded="true" signature="1095:1118" ph="SELECT user.... USER" />
-            <marker date="1512522874748" expanded="true" signature="2362:2426" ph="select * fro... USER" />
-            <marker date="1512522874748" expanded="true" signature="2532:3013" ph="UPDATE user " />
-            <marker date="1512522874748" expanded="true" signature="3103:3119" ph="delete from " />
-            <marker date="1512522874748" expanded="true" signature="3103:3158" ph="delete from " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/dao/User/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/testimg.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Widget/ueditor/1.4.3/dialogs/wordimage/imageUploader.swf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/utils/ImageConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/single.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="161" column="21" lean-forward="false" selection-start-line="161" selection-start-column="20" selection-end-line="161" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/DealController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/ImageInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#629#630#0" expanded="false" />
-            <element signature="e#665#666#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/utils/SpringApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="37" />
-          <folding>
-            <element signature="e#586#616#0" expanded="false" />
-            <element signature="e#664#665#0" expanded="false" />
-            <element signature="e#714#715#0" expanded="false" />
-            <element signature="e#765#766#0" expanded="false" />
-            <element signature="e#810#811#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/application/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/application/applicationContext-component.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/component/ModuleConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/application/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/component/ImageConfig_unuse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/component/FrontendBaseHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/ImageMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <marker date="1512480738098" expanded="true" signature="557:654" ph="SELECT FROM image_info" />
-            <marker date="1512480738098" expanded="true" signature="755:905" ph="insert into image_info... " />
-            <marker date="1512480738098" expanded="true" signature="1022:1441" ph="update image... " />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try1.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/Deal_detail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/Deal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/DealMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="11" column="56" lean-forward="false" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-          <folding>
-            <marker date="1512630407251" expanded="true" signature="932:945" ph="select * fro... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/Interceptor/CtxIntercepor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="553">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/index.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="98" column="36" lean-forward="false" selection-start-line="98" selection-start-column="36" selection-end-line="98" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="33" column="33" lean-forward="false" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-          <folding>
-            <element signature="e#2120#2129#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1885,7 +1643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1893,7 +1650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1901,19 +1657,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
           <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try2.ftl">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/Utils/ImageUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="789">
+          <caret line="63" column="25" lean-forward="false" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="55" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/utils/ImageUrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="13" column="59" lean-forward="false" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/Interceptor/HelperIntercepor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="54" column="45" lean-forward="false" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imageLocation/imagessr/basic/blank.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imageLocation/images/5.jpg" />
+    <entry file="file://$PROJECT_DIR$/imageLocation/images/3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imageLocation/images/2.jpg" />
+    <entry file="file://$PROJECT_DIR$/imageLocation/images/1.jpg" />
     <entry file="file://$PROJECT_DIR$/imageLocation/imagessr/basic/5.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imageLocation/images/8.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imageLocation/images/3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imageLocation/imagessr/basic/4.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -1928,56 +1724,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/Utils/ImageUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="789">
-          <caret line="63" column="25" lean-forward="false" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/Interceptor/HelperIntercepor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="54" column="69" lean-forward="false" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imageLocation/images/2.jpg">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/try1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imageLocation/images/3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imageLocation/images/5.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/utils/ImageUrl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="13" column="59" lean-forward="false" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imageLocation/images/1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="1241" column="17" lean-forward="true" selection-start-line="1241" selection-start-column="17" selection-end-line="1241" selection-end-column="17" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/imageLocation/imagessr/basic/1.jpg">
@@ -1985,19 +1734,317 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/component/baseSiteHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="13" column="46" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="46" />
-          <folding />
+        <state relative-caret-position="264">
+          <caret line="1807" column="14" lean-forward="true" selection-start-line="1807" selection-start-column="14" selection-end-line="1807" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="41" column="30" lean-forward="false" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/products.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="193" column="38" lean-forward="true" selection-start-line="193" selection-start-column="38" selection-end-line="193" selection-end-column="38" />
+        <state relative-caret-position="382">
+          <caret line="191" column="69" lean-forward="true" selection-start-line="191" selection-start-column="51" selection-end-line="191" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/index.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="745">
+          <caret line="104" column="40" lean-forward="false" selection-start-line="104" selection-start-column="40" selection-end-line="104" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/dao/Deal/DealDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/dao/DealCategory/DealCategoryDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="46" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/service/imp/ImageServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#553#554#0" expanded="false" />
+            <element signature="e#597#598#0" expanded="false" />
+            <element signature="e#707#708#0" expanded="false" />
+            <element signature="e#767#768#0" expanded="false" />
+            <element signature="e#892#893#0" expanded="false" />
+            <element signature="e#943#944#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/service/imp/DealCategoryServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="22" column="57" lean-forward="false" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try1.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/component/baseSiteHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="13" column="46" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try3.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="11" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/try2.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="21" column="55" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/Deal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="e#530#531#0" expanded="false" />
+            <element signature="e#562#563#0" expanded="false" />
+            <element signature="e#612#613#0" expanded="false" />
+            <element signature="e#654#655#0" expanded="false" />
+            <element signature="e#684#685#0" expanded="false" />
+            <element signature="e#709#710#0" expanded="false" />
+            <element signature="e#746#747#0" expanded="false" />
+            <element signature="e#774#775#0" expanded="false" />
+            <element signature="e#807#808#0" expanded="false" />
+            <element signature="e#836#837#0" expanded="false" />
+            <element signature="e#880#881#0" expanded="false" />
+            <element signature="e#916#917#0" expanded="false" />
+            <element signature="e#954#955#0" expanded="false" />
+            <element signature="e#987#988#0" expanded="false" />
+            <element signature="e#1023#1024#0" expanded="false" />
+            <element signature="e#1054#1055#0" expanded="false" />
+            <element signature="e#1103#1104#0" expanded="false" />
+            <element signature="e#1143#1144#0" expanded="false" />
+            <element signature="e#1196#1197#0" expanded="false" />
+            <element signature="e#1240#1241#0" expanded="false" />
+            <element signature="e#1279#1280#0" expanded="false" />
+            <element signature="e#1312#1313#0" expanded="false" />
+            <element signature="e#1365#1366#0" expanded="false" />
+            <element signature="e#1409#1410#0" expanded="false" />
+            <element signature="e#1453#1454#0" expanded="false" />
+            <element signature="e#1492#1493#0" expanded="false" />
+            <element signature="e#1557#1558#0" expanded="false" />
+            <element signature="e#1613#1614#0" expanded="false" />
+            <element signature="e#1651#1652#0" expanded="false" />
+            <element signature="e#1685#1686#0" expanded="false" />
+            <element signature="e#1739#1740#0" expanded="false" />
+            <element signature="e#1785#1786#0" expanded="false" />
+            <element signature="e#1822#1823#0" expanded="false" />
+            <element signature="e#1855#1856#0" expanded="false" />
+            <element signature="e#1907#1908#0" expanded="false" />
+            <element signature="e#1951#1952#0" expanded="false" />
+            <element signature="e#1989#1990#0" expanded="false" />
+            <element signature="e#2023#2024#0" expanded="false" />
+            <element signature="e#2077#2078#0" expanded="false" />
+            <element signature="e#2123#2124#0" expanded="false" />
+            <element signature="e#2160#2161#0" expanded="false" />
+            <element signature="e#2192#2193#0" expanded="false" />
+            <element signature="e#2243#2244#0" expanded="false" />
+            <element signature="e#2285#2286#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/DealCategoryMappper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/DealMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <marker date="1512698180667" expanded="true" signature="1216:1273" ph="select * fro... deal" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/service/CartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/service/imp/CartServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/service/imp/DealServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/service/DealService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/dao/Deal/DealDetailDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/DealController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="38" column="38" lean-forward="false" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/service/DealDetailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/mapper/DealDetailMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding>
+            <marker date="1512704778493" expanded="true" signature="591:660" ph="select * fro... deal_detail" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/Deal_detail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/single.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="303" column="17" lean-forward="true" selection-start-line="303" selection-start-column="17" selection-end-line="303" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/enty/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/Utils/CookieUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="40" column="18" lean-forward="false" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/controller/CartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlineStroe/service/imp/DealDeatialServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

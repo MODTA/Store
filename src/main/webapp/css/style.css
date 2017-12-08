@@ -855,6 +855,7 @@ p.non span{
 .p-one {
 	box-shadow:2px 2px 11px #CCCBCB;
 	padding:1.5em 0 0;
+    margin: 10px 10px 10px 10px;
 }
 .jwe a img {
   margin: 0 auto 1.5em;
@@ -1202,9 +1203,9 @@ li.last_price span {
 	text-align: center;
 	position:relative;
 }
-.products-grd:nth-child(2){
+/*.products-grd:nth-child(2){
 	margin:0 1em;
-}
+}*/
 .products-grd:hover div.pro-grd{
 	display:block;
 }
@@ -1220,7 +1221,7 @@ li.last_price span {
 	font-size:20px;
 	margin:0;
 	background: rgba(85, 83, 83, 0.71);
-	padding:4em 4.06em 5em;
+    padding: 4em 7em 6em;
 	text-decoration:none;
 }
 span.valsa{
@@ -1726,7 +1727,7 @@ margin-bottom: 0.3em;
 margin-top: 2%;
 font-size: 1.8em;
 color:#0EA4D6;
-line-height: 1.8em;
+/*line-height: 1.8em;*/
 text-shadow: 0 1px 0 #ffffff;
 }
 .details-left-info  h4 {
@@ -1806,7 +1807,7 @@ display:inline-block;
 .flower-type{
 margin: 2em 0;
 padding: 10px 0 15px 0;
-border:1px solid #204056;
+/*border:1px solid #204056;*/
 border-width: 1px 0;
 }
 .flower-type p{
@@ -2984,9 +2985,6 @@ label.radio {
 	}
 	.pro-grd a {
 	  padding: 5.2em 5.21em 4em;
-	}
-	.products-grd:nth-child(2) {
-	  margin: 0 auto 1em;
 	}
 	.w_nav1 ul li a,.sky-form h4 {
 	  font-size: 14px;

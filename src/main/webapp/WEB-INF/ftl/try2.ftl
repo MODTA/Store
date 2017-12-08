@@ -7,14 +7,18 @@
 
 </head>
 <body>
-试一
+试一哈
 
 <#--<img src="pic/imagessr/basic/1.jpg"/>-->
 
-
+<#--
 <#list dealList as deal>
 ${deal.image_id}
-<img src="/${helper.getDealImageUrlForDealList(deal)}"/>
-</#list>
+<img src="${helper.getSingleImageUrlForDealLIst(deal)}"/>
+</#list>-->
+<h3>${deal.deal_name}</h3>
+${deal.id}<br>
+${deal.dealPrice}
+<img src="/${helper.getSingleImageUrlForDealLIst(deal)}"/>
 </body>
 </html>

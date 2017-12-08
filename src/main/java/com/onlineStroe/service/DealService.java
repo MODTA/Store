@@ -13,4 +13,5 @@ public interface DealService {
 
     List<Deal> getDealsOfCategories(List<Integer> categoryIds);
 
+    Deal selectDealById(Integer dealId);
 }

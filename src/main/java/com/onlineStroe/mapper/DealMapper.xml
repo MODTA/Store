@@ -24,5 +24,8 @@
     </where>
     </select>
 
+    <select id="selectDealById" resultMap="Deal">
+        select * from deal where id=#{_parameter,jdbcType=BIGINT};
+    </select>
 
 </mapper>
